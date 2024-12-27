@@ -7,7 +7,7 @@ I’m excited about this journey, and I’m sure you will be too once you explor
 
 ## CPP Introduction
  - C++ is an **Object-Oriented Programming** Language.<br>
- - Object-Priented Programming is **NOT** just a concept; it’s a way of thinking.<br>
+ - Object-Priented Programming is **NOT** just a concept; it’s a **way of thinking.**<br>
  - We use object-oriented concepts to solve real-life problems by modeling them as objects.<br>
  - Smalltalk is considered the first object-oriented programming language.<br>
  - The concept of Classes in C++ was derived from Smalltalk, while the structural and syntactical approaches were borrowed from C.Because of this, C++ is often referred to as **"C with classes"**.<br>
