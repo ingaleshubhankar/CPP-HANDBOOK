@@ -18,8 +18,8 @@ I’m excited about this journey, and I’m sure you will be too once you explor
  <br>
 
 ### Important THREE Points
-<br>
 Below are 3 points that need to be taken into consideration whenever you are asked to write a program in C++
+<br>
 <br>
 
 1. Whether C++ is **applicable** or **NOT**.
