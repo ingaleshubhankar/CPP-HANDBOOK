@@ -8,5 +8,12 @@ I’m excited about this journey, and I’m sure you will be too once you explor
  - Object-Priented Programming is NOT just a concept; it’s a way of thinking.<br>
  - We use object-oriented concepts to solve real-life problems by modeling them as objects.<br>
  - Smalltalk is considered the first object-oriented programming language.<br>
- - The concept of Classes in C++ was derived from Smalltalk, while the structural and syntactical approaches were borrowed from C.<br>
- - Because of this, C++ is often referred to as **"C with classes"**.<br>
+ - The concept of Classes in C++ was derived from Smalltalk, while the structural and syntactical approaches were borrowed from C.Because of this, C++ is often referred to as **"C with classes"**.<br>
+<br>
+<br>
+
+### CONSIDER THESE 3 POINTS EVERY TIME WHEN YOU ARE GOING TO WRITE A PROGRAM
+
+1. Whether C++ is applicable or not
+2. Which things are required to solve the problem
+3. How can we solve the problem statements
