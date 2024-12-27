@@ -18,11 +18,10 @@ I’m excited about this journey, and I’m sure you will be too once you explor
  <br>
 
 ### Important THREE Points
-
 1. Whether C++ is **applicable** or **NOT**.
 2. **Which things are required** to **solve** the problem.
 3. **How can** we solve the problem statements.
-
+<br>
 
 ### C++ Versions
 - The C++ has gone through several major versions since its inception, each version adding new features and improvements. The C++ is standardized in 1998 as C++98, This is the first standardized version of C++, which was based on the original C++ language developed by Bjarne Stroustrup in the early 1980s.
