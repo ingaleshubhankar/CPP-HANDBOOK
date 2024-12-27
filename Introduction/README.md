@@ -44,3 +44,11 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 
  - In **2023 as C++23**, C++23 is the latest version, focusing on additional improvements and fixes to features introduced in C++20.<br>
  It focusing on library fixes and optimizations.
+
+
+ ## The four pillars of Object-Oriented Programming
+ 1. **Abstrction**()
+ 2. **Encapsulation**()
+ 3. **Inheritance**()
+ 4. **Polymorphism**()
+ 
