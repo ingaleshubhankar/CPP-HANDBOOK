@@ -26,17 +26,13 @@ I’m excited about this journey, and I’m sure you will be too once you explor
 ### C++ Versions
 - The C++ has gone through several major versions since its inception, each version adding new features and improvements. The C++ is standardized in **1998 as C++98**, This is the first standardized version of C++, which was based on the original C++ language developed by Bjarne Stroustrup in the early 1980s.
 
- - In **2003 as C++03**, C++03 was a bug-fix release of C++98.<br>
- It did not introduce any new features, but it fixed several ambiguities and inconsistencies present in the C++98 standard.
+ - In **2003 as C++03**, C++03 was a bug-fix release of C++98. It did not introduce any new features, but it fixed several ambiguities and inconsistencies present in the C++98 standard.
 
- - In 2007, The year 2007 is notable for the development of C++0x, which was an early working name for what would later become C++11.<br>
-However, **C++0x was never formally released in 2007**.
+ - In 2007, The year 2007 is notable for the development of C++0x, which was an early working name for what would later become C++11. However, **C++0x was never formally released in 2007**.
 
- - In **2011 as C++11, C++11** was a major update to the C++ language.<br>
- Introducing a wide range of new features like : Auto, nullptr, Lambda expressions, Range-based for loops, New smart pointers, etc.
+ - In **2011 as C++11, C++11** was a major update to the C++ language. Introducing a wide range of new features like : Auto, nullptr, Lambda expressions, Range-based for loops, New smart pointers, etc.
 
- - In **2014 as C++14, C++14** was a smaller update compared to C++11.<br>
- Focusing mostly on bug fixes, performance improvements, and small feature enhancements.
+ - In **2014 as C++14, C++14** was a smaller update compared to C++11. Focusing mostly on bug fixes, performance improvements, and small feature enhancements.
 
  - In **2017 as C++17**, C++17 added several new features and improvements.<br>
  Including Inline variables, Structured bindings, Filesystem library and more.
