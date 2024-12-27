@@ -47,7 +47,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 <br>
 
  ## The four pillars of Object-Oriented Programming
- 1. **[Abstrction]**(Introduction/AbstractionReadMe.md)
+ 1. **Abstraction**([Introduction/AbstractionReadMe.md](https://github.com/ingaleshubhankar/CPP-HANDBOOK.git))
  2. **Encapsulation**()
  3. **Inheritance**()
  4. **Polymorphism**()
