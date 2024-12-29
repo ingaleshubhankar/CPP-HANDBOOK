@@ -5,7 +5,7 @@ I’m excited about this journey, and I’m sure you will be too once you explor
 <br>
 <br>
 
-## CPP Introduction
+## [CPP Introduction](##CPP-Introduction)
  - C++ is an **Object-Oriented Programming** Language.<br>
  - Object-Priented Programming is **NOT** just a concept; it’s a **way of thinking.**<br>
  - We use object-oriented concepts to solve real-life problems by modeling them as objects.<br>
@@ -17,14 +17,14 @@ I’m excited about this journey, and I’m sure you will be too once you explor
  - C++ is generally used in **team development**.
  <br>
 
-### Important THREE Points
+### [Three Pointers](###three-pointers)
 Below are 3 points that need to be taken into consideration whenever you are asked to write a program in C++
 1. Whether C++ is **applicable** or **NOT**.
 2. **Which things are required** to **solve** the problem.
 3. **How can** we solve the problem statements.
 <br>
 
-### C++ Versions History
+### [C++ Versions History](###c++-versions-history)
 - The C++ has gone through several major versions since its inception, each version adding new features and improvements. The C++ is standardized in **1998 as C++98**, This is the first standardized version of C++, which was based on the original C++ language developed by Bjarne Stroustrup in the early 1980s.
 
  - In **2003 as C++03**, C++03 was a bug-fix release of C++98. It did not introduce any new features, but it fixed several ambiguities and inconsistencies present in the C++98 standard.
