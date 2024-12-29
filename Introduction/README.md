@@ -146,8 +146,14 @@ int main()
 #### Note:
 In this approach we are using Math class objects & calling method for that specific characteristics. So Ans is stored for that object.
 
-###
 
+### Explaination
+As below Image shows memory layout for the Object Oriented Approach,
 
 ![My Image](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/Code_and_Data_Relation.png)
 
+ - When we declared a class, memory is allocated for its behaviour(mothods) inside text section.
+ - When we create object/instance of class then seperate memory for characteristics allocated `N times`. But memory for behaviour allocated `only once` in text section.
+  - If you want to call any member function then object of that class required to call that function.
+
+---
