@@ -19,12 +19,10 @@ I’m excited about this journey, and I’m sure you will be too once you explor
 
 ### Important THREE Points
 Below are 3 points that need to be taken into consideration whenever you are asked to write a program in C++
-<br>
-
 1. Whether C++ is **applicable** or **NOT**.
 2. **Which things are required** to **solve** the problem.
 3. **How can** we solve the problem statements.
- <br>
+<br>
 
 ### C++ Versions History
 - The C++ has gone through several major versions since its inception, each version adding new features and improvements. The C++ is standardized in **1998 as C++98**, This is the first standardized version of C++, which was based on the original C++ language developed by Bjarne Stroustrup in the early 1980s.
@@ -55,10 +53,10 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 <br>
 
 
-## Problem Statement
+## Difference between Procedural & Object Oriented Programs
+Here we can see the Procedural and Object Oriented Programs with same problem statement and solving technique.
 
 ### Procedural Way (Add & Sub)
-
 ```
 #include<studio.h>
 
@@ -145,4 +143,11 @@ int main()
 }
 ```
 
+#### Note:
+In this approach we are using Math class objects & calling method for that specific characteristics. So Ans is stored for that object.
+
+###
+
+
+![My Image](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/Code_and_Data_Relation.png)
 
