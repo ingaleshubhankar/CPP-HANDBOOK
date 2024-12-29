@@ -55,4 +55,6 @@ int main() {
 ### Key Points
  - Abstraction hides implementation details while exposing essential functionality.
  - In this example, the salary is hidden, and the user interacts with it only through the displaySalary() method.
+
+ ---
  
