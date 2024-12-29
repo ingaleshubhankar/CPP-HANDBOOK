@@ -8,13 +8,10 @@ There are two types of abstraction:
  - **Method Abstraction**: Hides the internal logic of methods and shows only what they do
 
 
-# Abstraction in C++  
-
+## Abstraction Example  
 This example demonstrates **abstraction** in C++ using a single class. It includes:  
 - Abstract data (private member)  
 - Abstract method (public member function)  
-
-## Code Example  
 
 ```cpp
 #include <iostream>
@@ -55,6 +52,6 @@ int main() {
 ### Key Points
  - Abstraction hides implementation details while exposing essential functionality.
  - In this example, the salary is hidden, and the user interacts with it only through the displaySalary() method.
+<br>
 
  ---
- 
