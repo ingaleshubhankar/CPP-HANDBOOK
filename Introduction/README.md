@@ -57,7 +57,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 
 ## Problem Statement
 
-I. Procedural Way (Add & Sub)
+### Procedural Way (Add & Sub)
 
 ```
 #include<studio.h>
@@ -92,11 +92,57 @@ int main()
 }
 ```
 
-### Note:
+#### Note:
 As it is Procedural approach, it should be invoked in sequence. If you want to perform same task again and again, We have to follow same procedure again & again.
 
 
 
+### Object-Oriented Approach (Add & Sub)
+```
+#include<iostream>
+using namespace std;
+class Math
+{
+    private:
+        int val1,val2;
+    public:
+        int ans;
+        void Add();
+        void Sub();
+};
 
+Math::Math(int a, int b)
+{
+    val1 = a;
+    val2 = b;
+}
+
+void Math::Add()
+{
+    Ans = val1 + val2;
+}
+
+void Math::Sub()
+{
+    Ans = val1 - val2;
+}
+
+Math::~Math()
+{
+    //destructor
+}
+
+int main()
+{
+    Math obj1(100,20);
+    Math obj2(10,10);
+
+    obj1.Add();
+    obj2.Sub();
+
+    cout << "Addition is : " << obj1.Ans <<endl;
+    cout << "Substraction is : " << obj2.Ans <<endl;
+}
+```
 
 
