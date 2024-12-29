@@ -1,4 +1,4 @@
-# Introduction?
+# Introduction
 I’m not here to overwhelm you with a list of tools you must use. As long as you’ve got **a C++ compiler** and **an editor**, you’re **good to go**! Here, we’re diving straight into the core concepts, taking a **fresh perspective** that’s a bit different from the usual.<br>
 
 I’m excited about this journey, and I’m sure you will be too once you explore the first few chapters. Let’s get started!
@@ -52,3 +52,51 @@ Below are 3 points that need to be taken into consideration whenever you are ask
  3. [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
  4. [Polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/PolymorphismReadMe.md)
 <br> 
+<br>
+
+
+## Problem Statement
+
+I. Procedural Way (Add & Sub)
+
+```
+#include<studio.h>
+
+int Add(int No1, int No2)
+{
+	int Ans = 0;
+	Ans = No1 + No2;
+	return Ans;
+}
+
+int Sub(int No1, int No2)
+{
+	int Ans = 0;
+	Ans = No1 - No2;
+	return Ans;
+}
+
+int main()
+{
+	int Num1, Num2, Answer;
+	printf("Enter 2 Numbers :");
+	scanf("%d %d",&Num1, &Num2);
+	
+	Answer = Add(Num1,Num2);
+	printf("Addition = %d",Answer);
+	
+	Answer = Sub(Num1,Num2);
+	printf("Substraction = %d",Answer);
+	
+	return 0;
+}
+```
+
+### Note:
+As it is Procedural approach, it should be invoked in sequence. If you want to perform same task again and again, We have to follow same procedure again & again.
+
+
+
+
+
+
