@@ -44,7 +44,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
  It focusing on library fixes and optimizations.
 <br>
 
- ## The four pillars of Object-Oriented Programming
+ ## [The Four Pillars of Object-Oriented Programming](##The-Four-Pillars-of-Object-Oriented-Programming)
  1. [Abstraction](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/AbstractionReadMe.md)
  2. [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
  3. [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
@@ -53,10 +53,10 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 <br>
 
 
-## Difference between Procedural & Object Oriented Programs
-Here we can see the Procedural and Object Oriented Programs with same problem statement and solving technique.
+## [Difference between Procedural & Object Oriented Programs](##Difference-between-Procedural-&-Object-Oriented-Programs)
+Here we can see the Procedural and Object Oriented Programs with same problem statement and solving technique for Addition & Substraction.
 
-### Procedural Way (Add & Sub)
+### [Procedural Way](###Procedural-Way)
 ```
 #include<studio.h>
 
@@ -89,13 +89,12 @@ int main()
 	return 0;
 }
 ```
-
 #### Note:
 As it is Procedural approach, it should be invoked in sequence. If you want to perform same task again and again, We have to follow same procedure again & again.
 
 
 
-### Object-Oriented Approach (Add & Sub)
+### [Object-Oriented Approach](###Object-Oriented-Approach)
 ```
 #include<iostream>
 using namespace std;
@@ -147,7 +146,7 @@ int main()
 In this approach we are using Math class objects & calling method for that specific characteristics. So Ans is stored for that object.
 
 
-### Explaination
+### [Explaination](###Explaination)
 As below Image shows memory layout for the Object Oriented Approach,
 
 ![My Image](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/Code_and_Data_Relation.png)
