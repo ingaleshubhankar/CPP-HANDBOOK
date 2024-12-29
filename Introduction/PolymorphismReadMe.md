@@ -10,6 +10,7 @@ Polymorphism, derived from the Greek words "poly" (many) and "morph" (form), ref
 <br>
 
 2. **Run-Time Polymorphism** (Dynamic Polymorphism):
+
     - **Virtual Functions**: Functions declared with the virtual keyword in a base class can be overridden in derived classes. The function to be invoked is determined at runtime based on the object type, enabling dynamic method dispatch.
 <br>
 
