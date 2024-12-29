@@ -1,3 +1,8 @@
+README.md
+src/
+docs/
+assets/
+
 # About this Handbook?
 I’m not here to overwhelm you with a list of tools you must use. As long as you’ve got **a C++ compiler** and **an editor**, you’re **good to go**! Here, we’re diving straight into the core concepts, taking a **fresh perspective** that’s a bit different from the usual.<br>
 
