@@ -1,10 +1,7 @@
 # [Behind The Curtain of Execution](#Behind-the-curtain-of-execution)
-
-## [The Toolchain](#The-Tookchain)
-
-
-## [Operating System Basics](#Operation-System-Basics)
+Before diving into the core learning, let's take a moment to explore the foundational concepts that enable our programs to execute. These are the building blocks upon which the execution of any C++ program depends.
 
 
-## [Real Mode and Protected Mode](#real-mode-and-protected-mode)
-
+1. [The Toolchain](#The-Tookchain)
+2. [Operating System Basics](#Operation-System-Basics)
+3. [Real Mode and Protected Mode](#real-mode-and-protected-mode)
