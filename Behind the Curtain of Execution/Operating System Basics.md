@@ -1,2 +1,2 @@
-# [Operating System Basics](#operating-system-basics)
+# [Operating System Basics](#Operating-System-Basics)
 
