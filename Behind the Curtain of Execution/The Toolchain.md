@@ -33,7 +33,14 @@ int Add(int No1, int No2)
 <br>
 
 ### [Preprocessor](#preprocessor)
- ✓ The Preprocessor
+ ✓ The Preprocessor provides the ability for the inclusion of the header files, macro expansion, conditional compilation and line control.
+<br>
+ ✓ Preprocessor take lines beginnering with `#` as directives. Because it knows nothing about the underlying language.
+<br>
+ ✓ After Preprocessing it will give the expanded code as a output having extention **.i**.
+<br>
+ ✓ Expanded output given by preprocessor is in human understandable format.
+<br>
 
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
 
