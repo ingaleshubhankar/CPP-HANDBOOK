@@ -243,14 +243,14 @@ When our program geets loaded into the ram its primary header gets removed and i
 <br>
 New section gets added which is called as stack which contains information of function. There is seperate stack frame for each and every function whcich contains information like local variables, argument of functions, old value of EBP, address of next instruction to be executed etc.
 <br>
-
-<div style="text-align:center;">
-| Memory layout process |
-|:-----:|
-|<img src="memory_layout_process.png" alt="Centered Image" width="400">|
-</div>
 <br>
 
+<div style="text-align:center;">
+<img src="memory_layout_process.png" alt="Centered Image" width="400">
+</div>
+
+<br>
+<br>
 
 **Step 7:** Now our program gets copied into the memory. For further processing we have to pass that program to CPU. But it is not possible to pass whole program to CPU because of memory constrains. because of which each and evert section of program get converted into the segment of small size.
 <br>
