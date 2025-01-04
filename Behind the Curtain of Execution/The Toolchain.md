@@ -204,8 +204,10 @@ In this step program is in human understandable format. And our task is to conve
 
 **Step 2:** To achieve this first we pass our program to the preprocessor. Preprocessor gives the expanded source code as a output. But still our program is in human understandable format.
 <br>
+<br>
 
 **Step 3:** After preprocessing we pass the expanded program to the compiler which gives output in assembly language which is hardware dependent language. But still out program is in machine language.
+<br>
 <br>
 
 **Step 4:** This is assembly language program is pass to the assembler which converts assembly language program into machine language called as object code.
@@ -239,6 +241,15 @@ But if we want to run this program it must be copied into the main memory i.e RA
 When our program geets loaded into the ram its primary header gets removed and instructions pointer is set to the address of entry point.
 <br>
 New section gets added which is called as stack which contains information of function. There is seperate stack frame for each and every function whcich contains information like local variables, argument of functions, old value of EBP, address of next instruction to be executed etc.
+<br>
+
+![Memory layout process](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/memory_layout_process.png)
+
+<br>
+
+**Step 7:** Now our program gets copied into the memory. For further processing we have to pass that program to CPU. But it is not possible to pass whole program to CPU because of memory constrains. because of which each and evert section of program get converted into the segment of small size.
+<br>
+Segement of texxt section gets copied into CS(Code Segement), segement of data segement gets copied into DS(Data Segement), and stack segement gets copied into SS(Stack Segement).
 <br>
 
 
