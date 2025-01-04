@@ -256,9 +256,25 @@ New section gets added which is called as stack which contains information of fu
 
 **Step 7:** Now our program gets copied into the memory. For further processing we have to pass that program to CPU. But it is not possible to pass whole program to CPU because of memory constrains. because of which each and evert section of program get converted into the segment of small size.
 <br>
+<br>
 Segement of texxt section gets copied into CS(Code Segement), segement of data segement gets copied into DS(Data Segement), and stack segement gets copied into SS(Stack Segement).
 <br>
+If there is more space required to store the segment then ES(Extra segment), DS,GS(There is not full forms) are used.
+<br>
+<br>
 
+**Step 8:** Now contents of this segment gets converted into set of instructions. And the instructions are stored in queue called as instruction queue.
+<br>
+There is a IP (Instruction Pointer) who's responsible for featching the instruction from instruction queue and pass for further processing.
+<br>
+<br>
 
+**Step 9:** Now this instruction is accepted by CU (Control Unit). If the instruction is arithmatic instruction then it is handled by ALU (Arithmatic Logical Unit).
+<br>
+<br>
 
+**Step 10:** To process the instructions temporary memory locations of processor are used called CPU registers.
+<br>
+<br>
 
+---
