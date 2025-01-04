@@ -11,7 +11,7 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 
 
-| Image |
+| X86 Architecture |
 |:-----:|
 | ![X86 Toolchain](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/x84-arch-diagram.png) |
 
@@ -248,7 +248,9 @@ When our program geets loaded into the ram its primary header gets removed and i
 New section gets added which is called as stack which contains information of function. There is seperate stack frame for each and every function whcich contains information like local variables, argument of functions, old value of EBP, address of next instruction to be executed etc.
 <br>
 
-![Memory layout process](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/memory_layout_process.png)
+| Memory layout process |
+|:-----:|
+|![Memory layout process](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/memory_layout_process.png) |
 
 <br>
 
