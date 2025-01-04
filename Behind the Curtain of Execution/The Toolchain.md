@@ -15,7 +15,7 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 ## [Components of the Toolchain](#components-of-the-toolchain)
 
-### [1. Editor](#1.-editor)
+### [1. Editor](#1-editor)
  ✓ Editor is program in which we can write our code and edit that code.
  <br>
  ✓ Gedit, kwrite are the example of editors.
