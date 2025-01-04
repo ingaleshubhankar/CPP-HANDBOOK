@@ -245,9 +245,7 @@ New section gets added which is called as stack which contains information of fu
 <br>
 
 <div style="text-align:center;">
-| Memory layout process |
-|:-----:|
-|<img src="memory_layout_process.png" alt="Centered Image" width="300">|
+<img src="memory_layout_process.png" alt="Centered Image" width="400">
 </div>
 <br>
 
