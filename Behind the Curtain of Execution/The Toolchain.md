@@ -159,6 +159,34 @@ Demo.exe
 ```
 <br>
 
+
+
+### [Loader](#loader)
+ ✓ A Loader is a program which is is part of operating system that is responsible for loadind programs.
+<br>
+ ✓ It praoces program in memory (RAM) and prepares them for execution.
+<br>
+ ✓ Loading a program involves reading the contents of execution file like text, data into the memory.
+<br>
+
+#### [Example](#example)
+Program : **Demo.exe** running in RAM
+```
+10010111011010111000
+10000001001110100000
+00100100010010111000
+10010111111010111000
+11001100000010111000
+10010000011010001011
+11110111011010111011
+00010100011010111010
+10010111011010111011
+00010111011010001110
+```
+<br>
+<br>
+
+
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
 
 
