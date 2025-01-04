@@ -202,6 +202,38 @@ In this step program is in human understandable format. And our task is to conve
 <br>
 
 **Step 4:** This is assembly language program is pass to the assembler which converts assembly language program into machine language called as object code.
+<br>
+This is not pure executable code. This object file is divided into three parts as Text, Data & Symbol Table.
+<br>
+Text section is a section which contains compiled instructions of our program in machine understandable format.
+<br>
+Data section contains all the golbal variabl and static variables of our program. Data section is internally divided into two parts as bss(Block starting with Symbol) and non bss(Block starting with Value).
+<br>
+bss section contains all non-initialized global variables and non bss section contains all initialized global variables.
+<br>
+Symbol table is a data structure which is used to maintain all the information of indentifiers used in our program.
+<br>
+<br>
+
+**Step 5:** After getting the object code we pass this file to the linker. Linker is responsible for creating executable file.
+<br>
+Linkers link our object code with other dependent object code. It also adds primary header to our executable file. Primary header is a structure which contains magic number, type of executable, address of entry point, time date stamp etc.
+<br>
+Magic number is a number which is used by operating system to uniquely indentify the executablle.
+<br>
+After getting output of linker our file is in executable format but it is stored in harddisk.
+<br>
+But if we want to run this program it must be copied into the main memory i.e RAM.
+<br>
+<br>
+
+**Step 6:** Loader is part of operating system which is responsible for loading the program from hard disk to RAM.
+<br>
+When our program geets loaded into the ram its primary header gets removed and instructions pointer is set to the address of entry point.
+<br>
+New section gets added which is called as stack which contains information of function. There is seperate stack frame for each and every function whcich contains information like local variables, argument of functions, old value of EBP, address of next instruction to be executed etc.
+<br>
+
 
 
 
