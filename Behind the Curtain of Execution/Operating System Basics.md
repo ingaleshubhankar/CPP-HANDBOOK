@@ -5,7 +5,7 @@ It is a set of programs that act as a interface between a user of a computer and
 
 ## [Operating system task](#operating-system-task)
  ✓ **File Management**:<br>
- It used to maintain information about the files and allows used to create file, read contents of file, write contents in file etc.
+    It used to maintain information about the files and allows used to create file, read contents of file, write contents in file etc.
 <br>
 
 <img src="file-management.png" alt="Centered Image" width="400">
