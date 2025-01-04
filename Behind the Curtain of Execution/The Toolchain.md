@@ -11,6 +11,8 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 ![X86 Toolchain](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/x84-arch-diagram.png)
 
+<img src="x84-arch-diagram.png" alt="Resized Image" width="200">
+
 <br>
 <br>
 
