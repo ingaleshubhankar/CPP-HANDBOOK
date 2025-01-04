@@ -8,6 +8,8 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 ## [Components of the Toolchain](#components-of-the-toolchain)
 
+### [Editor](#editor)
+- :white_check_mark: Editor 
 
 
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
