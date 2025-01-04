@@ -9,8 +9,30 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 ## [Components of the Toolchain](#components-of-the-toolchain)
 
 ### [Editor](#editor)
-- :white_check_mark: Editor 
+ ✓ Editor is program in which we can write our code and edit that code.
+ ✓ Gedit, kwrite are the example of editors.
 
+#### [Example](#example)
+```
+//Header file inclusion
+#include<stdio.h>
+//Macro definition
+#define MAX 10
+
+int Add(int No1, int No2)
+{
+    //Local variable
+    int Ans;
+
+    Ans = No1 + No2 + MAX;
+    printf("Addition of Two Numbers is %d",Ans);
+    return Ans;
+}
+```
+<br>
+
+### [Preprocessor](#preprocessor)
+ ✓ The Preprocessor
 
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
 
