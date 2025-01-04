@@ -245,11 +245,11 @@ New section gets added which is called as stack which contains information of fu
 <br>
 
 <div style="text-align:center;">
-<img src="memory_layout_process.png" alt="Centered Image" width="400">
+| Memory layout process |
+|:-----:|
+|<img src="images/example-image.jpg" alt="Centered Image" width="300">|
 </div>
-
 <br>
-
 
 **Step 7:** Now our program gets copied into the memory. For further processing we have to pass that program to CPU. But it is not possible to pass whole program to CPU because of memory constrains. because of which each and evert section of program get converted into the segment of small size.
 <br>
