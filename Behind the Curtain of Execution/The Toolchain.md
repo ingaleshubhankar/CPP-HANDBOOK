@@ -10,6 +10,7 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 ### [Editor](#editor)
  ✓ Editor is program in which we can write our code and edit that code.
+ <br>
  ✓ Gedit, kwrite are the example of editors.
 
 #### [Example](#example)
