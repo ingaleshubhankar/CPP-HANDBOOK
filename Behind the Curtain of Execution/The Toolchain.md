@@ -195,7 +195,13 @@ In this step program is in human understandable format. And our task is to conve
 <br>
 <br>
 
-**Step 2:** To achieve this first we pass our program to the preprocessor. Preprocessor gives the expanded source code as a output. But still our program is in human understandable format
+**Step 2:** To achieve this first we pass our program to the preprocessor. Preprocessor gives the expanded source code as a output. But still our program is in human understandable format.
+<br>
+
+**Step 3:** After preprocessing we pass the expanded program to the compiler which gives output in assembly language which is hardware dependent language. But still out program is in machine language.
+<br>
+
+**Step 4:** This is assembly language program is pass to the assembler which converts assembly language program into machine language called as object code.
 
 
 
