@@ -80,6 +80,30 @@ RETN
 ```
 <br>
  
+
+### [Assembler](#assembler)
+ ✓ Assembler is a program which translates assembly language program to an object file, which contains code in machine language.
+<br>
+ ✓ Object file contains machine code, But still it is non-executable having extension `.obj`.
+<br>
+
+#### [Example](#example)
+Program : **Demo.obj**
+```
+10010111011010111000
+10000001001110100000
+00100100010010111000
+10010111111010111000
+11001100000010111000
+10010000011010001011
+11110111011010111011
+00010100011010111010
+10010111011010111011
+00010111011010001110
+```
+<br>
+
+
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
 
 
