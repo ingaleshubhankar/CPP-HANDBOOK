@@ -244,7 +244,7 @@ When our program geets loaded into the ram its primary header gets removed and i
 New section gets added which is called as stack which contains information of function. There is seperate stack frame for each and every function whcich contains information like local variables, argument of functions, old value of EBP, address of next instruction to be executed etc.
 <br>
 
-| Centered Image |
+| Memory layout  |
 |:--------------:|
 | <img src="memory_layout_process.png" alt="Centered Image" width="400"> |
 
