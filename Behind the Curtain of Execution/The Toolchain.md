@@ -189,5 +189,13 @@ Program : **Demo.exe** running in RAM
 
 ## [Stepwise execution of Toolchain](#stepwise-execution-of-toolchain)
 
+**Step 1:** First we write a program in any programming language like C/C++ on editor and then save program. When we save the program with appropriate file extension like .c / .cpp get stored in hard disk in format of file (File is unformatted uniform stream of bytes).
+<br>
+In this step program is in human understandable format. And our task is to convert this format to machine understandable format i.e Machine language.
+<br>
+<br>
+
+**Step 2:** To achieve this first we pass our program to the preprocessor. Preprocessor gives the expanded source code as a output. But still our program is in human understandable format
+
 
 
