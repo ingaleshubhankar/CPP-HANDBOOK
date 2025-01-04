@@ -6,6 +6,8 @@ Let me take you on a journey through the toolchain that makes it all possible. L
  ✓ A Toolchain is the set of Programming Tools that are used to create a softwares.
  ✓ The Tools are used in a chain, So that the output of each tool becomes input for the next tool.
 
+<br>
+
 ![X86 Toolchain](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Behind%20the%20Curtain%20of%20Execution/x84-arch-diagram.png)
 
 <br>
@@ -13,7 +15,7 @@ Let me take you on a journey through the toolchain that makes it all possible. L
 
 ## [Components of the Toolchain](#components-of-the-toolchain)
 
-### [Editor](#editor)
+### [1 Editor](#1-editor)
  ✓ Editor is program in which we can write our code and edit that code.
  <br>
  ✓ Gedit, kwrite are the example of editors.
@@ -39,7 +41,7 @@ int Add(int No1, int No2)
 ```
 <br>
 
-### [Preprocessor](#preprocessor)
+### [2 Preprocessor](#2-preprocessor)
  ✓ The Preprocessor provides the ability for the inclusion of the header files, macro expansion, conditional compilation and line control.
 <br>
  ✓ Preprocessor take lines beginnering with `#` as directives. Because it knows nothing about the underlying language.
@@ -65,7 +67,7 @@ int Add(int No1, int No2)
 ```
 <br>
 
-### [Compiler](#compiler)
+### [3 Compiler](#3-compiler)
  ✓ Compiler is a program which is used for transating source code from a high level programming languages (like C, C++) to lower level programming language (like assembly language, machine, machine language).
 <br>
  ✓ In this case we consider that output is in assembly language having extension `asm` or `.s`.
@@ -86,7 +88,7 @@ RETN
 <br>
  
 
-### [Assembler](#assembler)
+### [4 Assembler](#4-assembler)
  ✓ Assembler is a program which translates assembly language program to an object file, which contains code in machine language.
 <br>
  ✓ Object file contains machine code, But still it is non-executable having extension `.obj`.
@@ -109,7 +111,7 @@ Program : **Demo.obj**
 <br>
 
 
-### [Linker](#linker)
+### [5 Linker](#5-linker)
  ✓ A Linker is a program that takes one or more object files and combines them into a single executable program having extension `.exe`.
 <br>
  ✓ Linker adds primary header over executable file which contains address of entry point funtion, magic number, time-date stamp, type of executable (Executable can be self-executable or dependable executable).
@@ -166,7 +168,7 @@ Demo.exe
 
 
 
-### [Loader](#loader)
+### [6 Loader](#6-loader)
  ✓ A Loader is a program which is is part of operating system that is responsible for loadind programs.
 <br>
  ✓ It praoces program in memory (RAM) and prepares them for execution.
