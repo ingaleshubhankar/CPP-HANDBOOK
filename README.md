@@ -45,5 +45,48 @@
 
 
 
+## 5.[OOPS Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+ - 5.1 [Object]()
+ - 5.2 [Classes]()
+ - 5.3 [Data Abstraction]()
+ - 5.4 [Encapsulation]()
+ - 5.5 [Inheritance]()
+ - 5.6 [Polymorphism]()
+ - 5.7 [Pointer to Object]()
+ - 5.8 [Nested Classes]()
+ - 5.9 [Inline Functions]()
+ - 5.10 [Static Class Member]()
+ - 5.11 [Access Modifier]() 
+ - 5.12 [Access Specifier]()
+    - 5.12.1 [Friend]()
+    - 5.12.2 [Member]()
+    - 5.12.3 [Class]()
+    - 5.12.4 [Function]()
+ - 5.13 [Constructor and Destructor]()
+    - 5.13.1 [Types]()
+    - 5.13.2 [Empty]()
+    - 5.13.3 [Dynamic Constructor]()
+ - 5.14 [Virtual]()
+
+
+## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+ - 6.1 [Data Types of C++]()
+ - 6.2 [Structure of C++]()
+ - 6.3 [Input and Output Operator]()
+ - 6.4 [Reference Variable]()
+ - 6.5 [Scope Resolution Operator]()
+ - 6.6 [Memory Management Operator]()
+ - 6.7 [Type Casting Operator]()
+    - 6.7.1 [Implicit Casting]()
+    - 6.7.2 [Explicit Casting]()
+    - 6.7.3 [Addition Casting Operator]()
+        - 6.7.3.1 [Static Cast]()
+        - 6.7.3.2 [Dynamic Cast]()
+        - 6.7.3.3 [Constant Cast]()
+        - 6.7.3.4 [Reinterpret Cast]()
+
+
+
+
 ---
 
