@@ -1,0 +1,2 @@
+# [Behind The Curtain of Execution](#Behind-the-curtain-of-execution)
+Before diving into the core learning, let's take a moment to explore the foundational concepts that enable our programs to execute. These are the building blocks upon which the execution of any C++ program depends.
