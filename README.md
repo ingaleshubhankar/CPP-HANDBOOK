@@ -86,6 +86,23 @@
         - 6.7.3.4 [Reinterpret Cast]()
 
 
+## 7.[Advanced Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+ - 7.1 [Thread]()
+ - 7.2 [Exception Handling]()
+ - 7.3 [Templates]()
+ - 7.4 [STL]()
+ - 7.5 [C++ 11]()
+ - 7.6 [C++ 17]()
+ - 7.7 [C++ 20]()
+
+
+## 8.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+ - 8.1 [Creational Patterns]()
+ - 8.2 [Structural Patterns]()
+ - 8.3 [Behavioral Patterns]()
+
+## 9.[Design Principles](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+
 
 
 ---
