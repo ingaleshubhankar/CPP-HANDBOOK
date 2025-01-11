@@ -87,6 +87,10 @@ The process where procedures are bound (linked) to the code to be executed at co
 This is achieved in two ways:
  - Function Overloading
  - Operator Overloading
+<br>
+
+ii) Run-Time Polymorphism (Dynamic Polymorphism):
+ - Virtual Functions: Functions declared with the virtual keyword in a base class can be overridden in derived classes. The function to be invoked is determined at runtime based on the object type, enabling dynamic method dispatch.
 
  For more detailed explaination please refer [polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/PolymorphismReadMe.md)
 
