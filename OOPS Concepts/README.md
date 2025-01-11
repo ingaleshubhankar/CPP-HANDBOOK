@@ -63,3 +63,33 @@ int main() {
  For more detailed explaination please refer [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
 
 
+ ### [Inheritance](#inheritance)
+ - Inheritance is the process by which object of one class acquire the properties of object of another class. 
+  - Creating new class from existing one.
+  - The news class Inherits the property of original class called derived class. The Original class will be called base class.
+
+ For more detailed explaination please refer [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
+<br>
+
+
+ ### [Polymorphism](#polymorphism)
+ - It is the ability of a single interface to have multiple forms.
+ - The same entity exhibits different behaviors.
+ - There are two main types of polymorphism in C++:
+   i)  Compile-Time Polymorphism
+   ii) Run-Time Polymorphism
+
+<br>
+
+i) Compile-Time Polymorphism:
+The process where procedures are bound (linked) to the code to be executed at compile time is known as compile-time polymorphism. It is also known as early binding, static binding, or static linkage.
+
+This is achieved in two ways:
+ - Function Overloading
+ - Operator Overloading
+
+ For more detailed explaination please refer [polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/PolymorphismReadMe.md)
+
+
+
+
