@@ -10,7 +10,7 @@ These are the fundamental types provided by C++.
  - Size: Typically 4 bytes (varies by system).
  - Range: It represents a signed 32-bit integer on most systems. range -2,147,483,648 to 2,147,483,647 (for 4 bytes).
 
-Ex,
+Example,
 ```
 int age = 25;
 ```
@@ -22,7 +22,7 @@ int age = 25;
  - Size: Typically 4 bytes.
  - Precision: Up to 7 decimal digits
 
-Ex,
+Example,
 ```
 float height = 5.75f;
 ```
@@ -34,7 +34,7 @@ float height = 5.75f;
  - Size: Typically 8 bytes.
  - Precision: Up to 15 decimal digits.
 
-Ex,
+Example,
 ```
 double pi = 3.141592653589793;
 ```
@@ -46,7 +46,7 @@ double pi = 3.141592653589793;
  - Size: 1 byte.
  - Range: -128 to 127 or 0 to 255 (depending on whether it's signed or unsigned).
 
-Ex,
+Example,
 ```
 char grade = 'A';
 ```
@@ -56,7 +56,7 @@ char grade = 'A';
  - Represents a boolean value, which can be true or false. Used to store true or false. It typically represents a single bit of information (though it may take up more space in memory).
  - Size: Typically 1 byte.
 
-Ex,
+Example,
 ```
 bool isPassed = true;
 ```
@@ -79,7 +79,7 @@ type arrayName[size];
 ```
 <br>
 
-Ex,
+Example,
 ```
 int numbers[5] = {1, 2, 3, 4, 5};
 ```
@@ -97,7 +97,7 @@ type* pointerName;
 ```
 <br>
 
-Ex,
+Example,
 ```
 int x = 10;
 int* ptr = &x;
@@ -115,10 +115,71 @@ type& referenceName = originalVariable;
 ```
 <br>
 
-Ex,
+Example,
 ```
 int y = 20;
 int& ref = y;
 ```
+
+
+
+
+
+
+
+
+### [3. User-Defined Data Types](#3-user-defined-data-types)
+
+You can define your own data types in C++.
+
+#### Structures (struct)
+ - A group of related variables under one name. It is a collection of variables (of different types) that are grouped together, similar to a record in a database. 
+ - Similar to a class but with public members by default.
+
+Example,
+```
+struct Point {
+    int x, y;
+};
+```
+<br>
+
+
+#### Classes (class)
+ - A blueprint for creating objects that encapsulate data and functions. Like a structure but with added features for Object-Oriented Programming (OOP).
+ - It defines a data structure that contains both data members (variables) and member functions (methods) to operate on the data.
+
+Example,
+```
+class Car {
+    public:
+        string brand;
+        int year;
+};
+```
+<br>
+
+
+#### Enumerations (enum)
+ - A user-defined type consisting of a set of named integral constants. Used to define a set of named integral constants.
+ - An enumeration defines a type that can take one of a set of predefined values, each of which is a constant.
+
+Example,
+```
+enum Color { RED, GREEN, BLUE };
+```
+<br>
+
+
+#### Typedefs and Aliases
+ - Used to give a new name to an existing type. typedef and using keywords are used to create type aliases for easier code readability and maintainability.
+ - Used to create a new name (alias) for an existing type.
+
+Example,
+```
+typedef unsigned int uint;
+using uint = unsigned int;
+```
+
 
 
