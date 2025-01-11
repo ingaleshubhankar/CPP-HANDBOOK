@@ -176,6 +176,21 @@ Example,
 typedef unsigned int uint;
 using uint = unsigned int;
 ```
+<br>
+<br>
+
+
+### [4. Abstract or Void Data Type](#4-abstract-or-void-data-type)
+
+#### void
+Used for functions that do not return a value or to specify a generic pointer (void*).
+
+Example,
+```
+void printMessage() {
+    cout << "Hello, World!";
+}
+```
 
 
 
