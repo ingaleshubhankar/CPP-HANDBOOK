@@ -68,8 +68,8 @@
  - 5.13 [Virtual]()
 
 
-## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
- - 6.1 [Data Types of C++]()
+## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md)
+ - 6.1 [Data Types of C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#data-types)
  - 6.2 [Input and Output Operator]()
  - 6.3 [Reference Variable]()
  - 6.4 [Scope Resolution Operator]()
