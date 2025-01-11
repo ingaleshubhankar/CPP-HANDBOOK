@@ -73,15 +73,15 @@ int main() {
 
 
  ### [Polymorphism](#polymorphism)
- - It is the ability of a single interface to have multiple forms.
+ - It is the ability of a **single interface to have multiple forms**.
  - The same entity exhibits different behaviors.
  - There are two main types of polymorphism in C++:
-   i)  Compile-Time Polymorphism
+   i) Compile-Time Polymorphism
    ii) Run-Time Polymorphism
 
 <br>
 
-i) Compile-Time Polymorphism:
+i) **Compile-Time Polymorphism (Static Polymorphism)**:
 The process where procedures are bound (linked) to the code to be executed at compile time is known as compile-time polymorphism. It is also known as early binding, static binding, or static linkage.
 
 This is achieved in two ways:
@@ -89,7 +89,7 @@ This is achieved in two ways:
  - Operator Overloading
 <br>
 
-ii) Run-Time Polymorphism (Dynamic Polymorphism):
+ii) **Run-Time Polymorphism (Dynamic Polymorphism)**:
  - Virtual Functions: Functions declared with the virtual keyword in a base class can be overridden in derived classes. The function to be invoked is determined at runtime based on the object type, enabling dynamic method dispatch.
 
  For more detailed explaination please refer [polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/PolymorphismReadMe.md)
