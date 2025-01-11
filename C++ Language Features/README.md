@@ -64,3 +64,61 @@ bool isPassed = true;
 <br>
 
 
+###  [2. Derived Data Types](#2-derived-data-types)
+
+These are built from the basic data types.
+
+
+#### Arrays
+ - A collection of items of the same type (e.g., an array of integers). It is a contiguous block of memory where each element can be accessed via its index.
+ - Array is collection of elements of the same type, stored in contiguous memory locations.
+
+Syntax:
+```
+type arrayName[size];
+```
+<br>
+
+Ex,
+```
+int numbers[5] = {1, 2, 3, 4, 5};
+```
+<br>
+
+
+#### Pointers
+ - Variables that store memory addresses.They are used to store the address of another variable and provide the ability to perform low-level memory management. 
+ - A variable that stores the memory address of another variable.
+
+
+Syntax:
+```
+type* pointerName;
+```
+<br>
+
+Ex,
+```
+int x = 10;
+int* ptr = &x;
+```
+<br>
+
+
+#### References
+ - An alias for another variable. It is a reference to an existing variable, allowing indirect access to it without using pointers.
+ - An alias for another variable, providing another name for the same memory location.
+
+Syntax:
+```
+type& referenceName = originalVariable;
+```
+<br>
+
+Ex,
+```
+int y = 20;
+int& ref = y;
+```
+
+
