@@ -60,7 +60,7 @@ int main() {
 
  - Think of a class like a box that hides its contents. The box (class) has buttons (functions) on the outside that let you interact with what's inside, but you can't directly reach in and change things. The variables inside the class are usually marked as private so that they can't be accessed directly from outside the class. 
 <br>
+
  For more detailed explaination please refer [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
 
 
- 
