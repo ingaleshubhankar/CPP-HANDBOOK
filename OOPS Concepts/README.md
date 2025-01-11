@@ -2,7 +2,11 @@
 
 
 ## [Classes and Objects](#classes-and-objects)
+Object-Oriented Programming (OOP) is a way of designing programs using objects, which helps organize and reuse code easily.<br>
 
+Let's see! I'll now explain the basic ideas of Object-Oriented Programming (OOP), like encapsulation, inheritance, polymorphism, and abstraction, in a simple and easy-to-understand way.
+<br>
+<br>
 
 ### [Classes](#classes)
 The **class** is user defined type which consist of both data and function of the object. A class is like a blueprint for a house. It defines what the house will have: the number of rooms, the type of roof, etc. 
