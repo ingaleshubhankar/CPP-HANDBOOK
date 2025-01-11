@@ -70,6 +70,10 @@
 
 ## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md)
  - 6.1 [Data Types of C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#data-types)
+    - 6.1.1 [Primitive Data Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#1-basic-primitive-data-types)
+    - 6.1.2 [Derived Data Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#2-derived-data-types)
+    - 6.1.3 [User Defined Data Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#3-user-defined-data-types)
+    - 6.1.4 [Abstract Data Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#4-abstract-or-void-data-type)
  - 6.2 [Input and Output Operator]()
  - 6.3 [Reference Variable]()
  - 6.4 [Scope Resolution Operator]()
