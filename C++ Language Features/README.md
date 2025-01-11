@@ -120,12 +120,8 @@ Example,
 int y = 20;
 int& ref = y;
 ```
-
-
-
-
-
-
+<br>
+<br>
 
 
 ### [3. User-Defined Data Types](#3-user-defined-data-types)
