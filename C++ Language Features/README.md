@@ -14,6 +14,7 @@ Ex,
 ```
 int age = 25;
 ```
+<br>
 
 #### float (Floating Point)
  - Represents floating-point numbers, which are numbers with a fractional part. Used for numbers with decimals like 3.14 or -0.01.
@@ -25,8 +26,7 @@ Ex,
 ```
 float height = 5.75f;
 ```
-
-
+<br>
 
 #### double (Double Precision Floating Point)
  - Represents double-precision floating-point numbers, allowing more precise fractional values. Like float, but with more precision for decimals (e.g., 3.14159). 
@@ -38,7 +38,7 @@ Ex,
 ```
 double pi = 3.141592653589793;
 ```
-
+<br>
 
 #### char (Character)
  - Represents a single character from the ASCII set. Used to store a single character like 'a' or 'Z'. 
@@ -50,7 +50,7 @@ Ex,
 ```
 char grade = 'A';
 ```
-
+<br>
 
 #### bool (Boolean)
  - Represents a boolean value, which can be true or false. Used to store true or false. It typically represents a single bit of information (though it may take up more space in memory).
@@ -60,5 +60,7 @@ Ex,
 ```
 bool isPassed = true;
 ```
+<br>
+<br>
 
 
