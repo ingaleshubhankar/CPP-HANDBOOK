@@ -59,7 +59,6 @@ int main() {
  - Encapsulation in C++ is the concept of bundling the data (variables) and the methods (functions) that operate on the data into a single unit, called a class. It also restricts direct access to some of the object's components, which is done to protect the integrity of the object.
 
  - Think of a class like a box that hides its contents. The box (class) has buttons (functions) on the outside that let you interact with what's inside, but you can't directly reach in and change things. The variables inside the class are usually marked as private so that they can't be accessed directly from outside the class. 
-<br>
 
  For more detailed explaination please refer [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
 
