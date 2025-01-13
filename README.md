@@ -23,10 +23,10 @@
     
 
 ## 3.[Basics of Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Basics%20of%20programming#basics-of-programming)
- - 3.1 [Control Flows]()
-    - 3.1.1 [Sequence]()
-	- 3.1.2 [Selection]()
-	- 3.1.3 [Iteration]()
+ - 3.1 [Control Flows](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Basics%20of%20programming#control-flow)
+    - 3.1.1 [Sequence](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#1-sequence)
+	- 3.1.2 [Selection](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#2-iteration)
+	- 3.1.3 [Iteration](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection)
  - 3.2 [Time and Space Complexity]()
  - 3.3 [Function Call]()
  - 3.4 [Recursion]()
