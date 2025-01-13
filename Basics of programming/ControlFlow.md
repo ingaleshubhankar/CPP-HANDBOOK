@@ -10,18 +10,12 @@
 <br>
 
 ## 1. [Sequence](#1-sequence)
-To get desired output if you want to apply some steps in sequential format then we have to use Sequence. In this case the flow of our sequence is important to get desired output.
-
-
-
+To get desired output if you want to apply some steps in sequential format then we have to use Sequence. In this case the flow of our sequence is important to get desired output.<br>
 
 ## 2. [Iteration](#2-iteration)
-If you want to apply/perform in the repeated manner then we have to use iteration. To apply the concept of iteration we have to use loops.<br>
-
+If you want to apply/perform in the repeated manner then we have to use iteration. To apply the concept of iteration we have to use loops.
 Every iteration may contains Sequence, Selection or Iteration.<br>
 
 ## 3. [Selection](#3-selection)
-If there are multiple possibilities to select any solution then we have to se concept of Selection.<br>
-
-In case of selection, we have to use switch program construct or if-else-if construct.<br>
+If there are multiple possibilities to select any solution then we have to se concept of Selection. In case of selection, we have to use switch program construct or if-else-if construct.<br>
 
