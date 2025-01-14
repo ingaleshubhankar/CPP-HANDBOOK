@@ -78,12 +78,12 @@ The for loop in C++ is a control structure that allows code to be executed repea
 |:--------------:|
 | <img src="syntax_for_loop.png" alt="Centered Image" width="500"> |
 <br>
-Explaination:- <br>
+
+Explaination:-<br>
 
  1) At this point we can intialize loop counter either we can initialize zero loop couter or multiple loop counter.<br>
 
  2) At this place we have to wtite the condition at this place used to terminate our loop. It can be zero contains or multiple conditions, which are combined with logical operator like (&&, ||).
-
 
  3) At this place we can write modification code used to change value of loop counter. we can write increment or decrement conditions multiple times.
 
