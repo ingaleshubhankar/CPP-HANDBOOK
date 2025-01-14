@@ -71,6 +71,14 @@ In Above program we are using concept of **sequence**, We can replace it into It
 If you want to apply/perform in the repeated manner then we have to use iteration. To apply the concept of iteration we have to use loops.
 Every iteration may contains Sequence, Selection or Iteration.<br>
 
+### [For Loop](#for-loop)
+The for loop in C++ is a control structure that allows code to be executed repeatedly based on a given condition. It is particularly useful when the number of iterations is known before entering the loop. 
+
+| For Loop Syntax  |
+|:--------------:|
+| <img src="syntax_for_loop.png" alt="Centered Image" width="500"> |
+
+
 ## 3. [Selection](#3-selection)
 If there are multiple possibilities to select any solution then we have to se concept of Selection. In case of selection, we have to use switch program construct or if-else-if construct.<br>
 
