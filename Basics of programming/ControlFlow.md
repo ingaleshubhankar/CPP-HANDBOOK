@@ -38,11 +38,12 @@ int main()
     printf("A")
     printf("A")
     printf("A")
+    printf("A")
     return 0;
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we will see that in further [example](). <br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2.2](). <br>
 <br>
 
 Example 1.3,<br>
@@ -62,7 +63,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we will see that in further [example]().<br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2,3]().<br>
 <br>
 
 
