@@ -12,19 +12,58 @@
 ## 1. [Sequence](#1-sequence)
 To get desired output if you want to apply some steps in sequential format then we have to use Sequence. In this case the flow of our sequence is important to get desired output.<br>
 
-Example 1,<br>
+Example 1.1,<br>
 Write a program which is used to print name,address & mobile no of a person.
 
 ```
 int main()
 {
-    printf("\nShubhankar Ingale")
-    printf("\nPune")
-    printf("\n7040213057")
+    printf("Shubhankar Ingale")
+    printf("Pune")
+    printf("7777777777")
     return 0;
 }
 ```
 
+In Above program we have to print three different things on screen due to which we have to use concept of Sequence.<br>
+<br>
+
+
+Example 1.2,<br>
+Write a program which is used to print character `A` 4 times on console screen.
+
+```
+int main()
+{
+    printf("A")
+    printf("A")
+    printf("A")
+    return 0;
+}
+```
+
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we will see that in further [example](). <br>
+<br>
+
+Example 1.3,<br>
+Write a program which is used to print character `A` to `Z`  on console screen.
+
+```
+int main()
+{
+    printf("A")
+    printf("B")
+    printf("D")
+    printf("E")
+    :
+    :
+    printf("Z")
+    return 0;
+}
+```
+
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we will see that in further [example]().<br>
+<br>
 
 
 ## 2. [Iteration](#2-iteration)
