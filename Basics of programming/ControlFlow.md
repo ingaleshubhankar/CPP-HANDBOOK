@@ -12,6 +12,21 @@
 ## 1. [Sequence](#1-sequence)
 To get desired output if you want to apply some steps in sequential format then we have to use Sequence. In this case the flow of our sequence is important to get desired output.<br>
 
+Example 1,<br>
+Write a program which is used to print name,address & mobile no of a person.
+
+```
+int main()
+{
+    printf("\nShubhankar Ingale")
+    printf("\nPune")
+    printf("\n7040213057")
+    return 0;
+}
+```
+
+
+
 ## 2. [Iteration](#2-iteration)
 If you want to apply/perform in the repeated manner then we have to use iteration. To apply the concept of iteration we have to use loops.
 Every iteration may contains Sequence, Selection or Iteration.<br>
