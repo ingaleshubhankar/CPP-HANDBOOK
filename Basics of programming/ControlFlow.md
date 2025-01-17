@@ -44,7 +44,7 @@ int main()
 }
 ```
 
-In above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2.<br>
+In above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Sequence, Example 2.2](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#for-loop).<br>
 
 
 Example 1.3,<br>
@@ -64,7 +64,7 @@ int main()
 }
 ```
 
-In above program we are using concept of **sequence**, We can replace it into **iterator**, we can see that in further Example 2.3.
+In above program we are using concept of **sequence**, We can replace it into **iterator**, we can see that in further [Sequence, Example 2.3](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#for-loop).
 <br>
 
 Example 1.4,<br>
@@ -83,7 +83,7 @@ int main()
 }
 ```
 
-In above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further [Selection - Example 3.1](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection).<br>
+In above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further [Selection, Example 3.1](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection).<br>
 <br>
 
 
@@ -109,29 +109,9 @@ Explaination:-<br>
 
 4) At this place we can write actual loop body which gets executed multiple times. inside loop body we can use **Sequence**, **Selection** or **Iteration**.
 <br>
-
-### [while](#for-loop)
-A while loop is used to repeatedly execute a block of code as long as a specified condition is true. Here's a simple breakdown of how it works: 
-
-| while loop Syntax  |
-|:--------------:|
-| <img src="syntax_for_while.png" alt="Centered Image" width="500"> |
 <br>
 
-Explaination:-<br>
 
- 1) `condition`: This is a Boolean expression. The loop will keep running as long as this condition evaluates to true.<br>
-
- 2) `Body`: The block of code inside the curly braces {} is the body of the loop, which is executed repeatedly.<br>
-
- 3) Explaination:
-    - First, the condition is evaluated
-    - If the condition is true, the code inside the loop's body is executed.
-    - After executing the body, the program goes back to evaluate the condition again.
-    - This process repeats until the condition becomes false.
-    - When the condition becomes false, the loop terminates, and the program continues with the code after the loop.
-<br>
-<br>
 
 Example 2.1,<br>
 Write a program which is used to print no from 1 to 10 by using function.
@@ -184,7 +164,33 @@ int main()
 }
 ```
 
-In Above program we are using concept of **Iteration** with the help of for loop here to print `A` to `Z`.<br>
+In Above program we are using concept of **Iteration** with the help of for loop here to print `A` to `Z`.
+<br>
+<br>
+
+
+### [while](#for-loop)
+A while loop is used to repeatedly execute a block of code as long as a specified condition is true. Here's a simple breakdown of how it works: 
+
+| while loop Syntax  |
+|:--------------:|
+| <img src="syntax_for_while.png" alt="Centered Image" width="500"> |
+<br>
+
+Explaination:-<br>
+
+ 1) `condition`: This is a Boolean expression. The loop will keep running as long as this condition evaluates to true.<br>
+
+ 2) `Body`: The block of code inside the curly braces {} is the body of the loop, which is executed repeatedly.<br>
+
+ 3) Explaination:
+    - First, the condition is evaluated
+    - If the condition is true, the code inside the loop's body is executed.
+    - After executing the body, the program goes back to evaluate the condition again.
+    - This process repeats until the condition becomes false.
+    - When the condition becomes false, the loop terminates, and the program continues with the code after the loop.
+<br>
+<br>
 
 
 
