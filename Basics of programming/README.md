@@ -10,3 +10,15 @@ Below are the basic categories of [control flow](https://github.com/ingaleshubha
 <br>
 
 
+
+## [Time and Space Complexity](#time-and-space-complexity)
+
+
+### [Time Complexity](#time-complexity)
+
+
+
+### [Space Complexity](#space-complexity)
+
+
+
