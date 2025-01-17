@@ -18,9 +18,9 @@ Write a program which is used to print name,address & mobile no of a person.
 ```
 int main()
 {
-    printf("Shubhankar Ingale")
-    printf("Pune")
-    printf("7777777777")
+    printf("Shubhankar Ingale");
+    printf("Pune");
+    printf("7777777777");
     return 0;
 }
 ```
@@ -35,10 +35,10 @@ Write a program which is used to print character `A` 4 times on console screen.
 ```
 int main()
 {
-    printf("A")
-    printf("A")
-    printf("A")
-    printf("A")
+    printf("A");
+    printf("A");
+    printf("A");
+    printf("A");
     return 0;
 }
 ```
@@ -52,19 +52,36 @@ Write a program which is used to print character `A` to `Z`  on console screen.
 ```
 int main()
 {
-    printf("A")
-    printf("B")
-    printf("D")
-    printf("E")
+    printf("A");
+    printf("B");
+    printf("D");
+    printf("E");
     :
     :
-    printf("Z")
+    printf("Z");
     return 0;
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2,3]().<br>
-<br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2.3]().<br>
+
+Example 1.4,<br>
+Write a program which is used to print even no from 2 to 12 by using function.
+
+```
+int main()
+{
+    printf("2");
+    printf("4");
+    printf("6");
+    printf("8");
+    printf("10");
+    printf("10");
+    return 0;
+}
+```
+
+In Above program we are using concept of **Sequence**, We can replace it into **Iteration** & **Selection**, we can see that in further [Example 3.1]().<br>
 <br>
 
 
@@ -97,3 +114,21 @@ Explaination:-<br>
 ## 3. [Selection](#3-selection)
 If there are multiple possibilities to select any solution then we have to se concept of Selection. In case of selection, we have to use switch program construct or if-else-if construct.<br>
 
+Example 3.1,<br>
+Write a program which is used to print even no from 2 to 12 by using function.
+
+```
+int main()
+{
+    int i=0;
+    for(i=0;i<=2;i++)
+    {
+        if(i%2==0) {
+            printf("%d",i);
+        }
+    }
+    return 0;
+}
+```
+
+In Above program we are using concept of **Iteration** & **Selection** here.
