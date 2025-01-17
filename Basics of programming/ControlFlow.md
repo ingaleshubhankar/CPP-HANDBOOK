@@ -206,7 +206,7 @@ Write a program which is used to print even no from 2 to 12 by using function.
 int main()
 {
     int i=0;
-    for(i=0;i<=2;i++)
+    for(i=0;i<=12;i++)
     {
         if(i%2==0) {
             printf("%d",i);
@@ -217,3 +217,23 @@ int main()
 ```
 
 In Above program we are using concept of **Iteration** & **Selection** here.
+
+
+
+Example 3.2,<br>
+Write a program which is used to print even no from 2 to 12 by using function.
+
+```
+int main()
+{
+    int i=2;
+    while(i!=12)
+    {
+        printf("%d",i);
+        i+=2;
+    }
+    return 0;
+}
+```
+
+In Above program we are using concept of **Iteration** & **Selection** here. We are using while loop here to print .
