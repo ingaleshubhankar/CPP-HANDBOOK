@@ -44,7 +44,7 @@ int main()
 }
 ```
 
-In above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Sequence, Example 2.2](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#for-loop).<br>
+In above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Iteration, Example 2.2](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#for-loop).<br>
 
 
 Example 1.3,<br>
