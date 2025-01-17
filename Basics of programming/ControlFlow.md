@@ -91,7 +91,7 @@ In Above program we are using concept of **Sequence**, We can replace it into **
 If you want to apply/perform in the repeated manner then we have to use iteration. To apply the concept of iteration we have to use loops.
 Every iteration may contains Sequence, Selection or Iteration.<br>
 
-### [For Loop](#for-loop)
+### [for loop](#for-loop)
 The for loop in C++ is a control structure that allows code to be executed repeatedly based on a given condition. It is particularly useful when the number of iterations is known before entering the loop. 
 
 | For Loop Syntax  |
@@ -111,6 +111,28 @@ Explaination:-<br>
 <br>
 <br>
 
+### [while](#for-loop)
+A while loop is used to repeatedly execute a block of code as long as a specified condition is true. Here's a simple breakdown of how it works: 
+
+| while loop Syntax  |
+|:--------------:|
+| <img src="syntax_for_while.png" alt="Centered Image" width="500"> |
+<br>
+
+Explaination:-<br>
+
+ 1) `condition`: This is a Boolean expression. The loop will keep running as long as this condition evaluates to true.<br>
+
+ 2) `Body`: The block of code inside the curly braces {} is the body of the loop, which is executed repeatedly.<br>
+
+ 3) Explaination:
+    - First, the condition is evaluated
+    - If the condition is true, the code inside the loop's body is executed.
+    - After executing the body, the program goes back to evaluate the condition again.
+    - This process repeats until the condition becomes false.
+    - When the condition becomes false, the loop terminates, and the program continues with the code after the loop.
+<br>
+<br>
 
 
 ## 3. [Selection](#3-selection)
