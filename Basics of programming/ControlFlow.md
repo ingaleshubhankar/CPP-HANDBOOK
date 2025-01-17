@@ -26,7 +26,7 @@ int main()
 }
 ```
 
-In Above program we have to print three different things on screen due to which we have to use concept of **sequence**.<br>
+In above program we have to print three different things on screen due to which we have to use concept of **sequence**.<br>
 <br>
 
 
@@ -44,7 +44,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2.<br>
+In above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2.<br>
 
 
 Example 1.3,<br>
@@ -64,7 +64,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into **iterator**, we can see that in further Example 2.3.
+In above program we are using concept of **sequence**, We can replace it into **iterator**, we can see that in further Example 2.3.
 <br>
 
 Example 1.4,<br>
@@ -83,7 +83,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further Example 3.1.<br>
+In above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further [Example 3.1](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection).<br>
 <br>
 
 
