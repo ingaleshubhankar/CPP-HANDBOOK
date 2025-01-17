@@ -12,6 +12,7 @@
 ## 1. [Sequence](#1-sequence)
 To get desired output if you want to apply some steps in sequential format then we have to use Sequence. In this case the flow of our sequence is important to get desired output.<br>
 
+
 Example 1.1,<br>
 Write a program which is used to print name,address & mobile no of a person.
 
@@ -43,8 +44,8 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2.2](). <br>
-<br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2. <br>
+
 
 Example 1.3,<br>
 Write a program which is used to print character `A` to `Z`  on console screen.
@@ -63,7 +64,8 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further [Example 2.3]().<br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.3.
+<br>
 
 Example 1.4,<br>
 Write a program which is used to print even no from 2 to 12 by using function.
@@ -81,7 +83,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **Sequence**, We can replace it into **Iteration** & **Selection**, we can see that in further [Example 3.1]().<br>
+In Above program we are using concept of **Sequence**, We can replace it into **Iteration** & **Selection**, we can see that in further Example 3.1.<br>
 <br>
 
 
