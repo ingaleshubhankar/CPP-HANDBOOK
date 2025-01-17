@@ -193,12 +193,24 @@ Explaination:-<br>
 <br>
 
 
+Example 2.4,<br>
+Write a program which is used to print 4 times `A` by using while loop.
 
+```
+int main() {
+    int i = 65;
+    while (i <= 90) {
+        printf("%c ", i);
+        i++;
+    }
+    printf("\n");
+    return 0;
+}
+```
 
-
-
-
-
+In Above program we are using concept of **Iteration** with the help of while loop here to print `A` to `Z`.
+<br>
+<br>
 
 
 ## 3. [Selection](#3-selection)
