@@ -134,6 +134,67 @@ Explaination:-<br>
 <br>
 <br>
 
+Example 2.1,<br>
+Write a program which is used to print no from 1 to 10 by using function.
+
+```
+int main()
+{
+    int i=0;
+    for(i=1;i<=10;i++)
+    {
+        printf("%d",i);
+    }
+    return 0;
+}
+```
+
+In Above program we are using concept of **Iteration** with the help of for loop here.<br>
+<br>
+
+
+Example 2.2,<br>
+Write a program which is used to print 4 times `A` by using for loop.
+
+```
+int main()
+{
+    int i=0;
+    for(i=1;i<=10;i++)
+    {
+        printf("A");
+    }
+    return 0;
+}
+```
+
+In Above program we are using concept of **Iteration** with the help of for loop here to print `A` 4 times.<br>
+
+
+Example 2.2,<br>
+Write a program which is used to print 4 times `A` by using for loop.
+
+```
+int main() 
+{
+    for (int i = 65; i <= 90; i++) {
+        printf("%c ", i);
+    }
+    printf("\n");
+    return 0;
+}
+```
+
+In Above program we are using concept of **Iteration** with the help of for loop here to print `A` to `Z`.<br>
+
+
+
+
+
+
+
+
+
 
 ## 3. [Selection](#3-selection)
 If there are multiple possibilities to select any solution then we have to se concept of Selection. In case of selection, we have to use switch program construct or if-else-if construct.<br>
