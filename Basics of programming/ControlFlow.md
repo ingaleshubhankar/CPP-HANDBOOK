@@ -83,7 +83,7 @@ int main()
 }
 ```
 
-In above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further [Example 3.1](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection).<br>
+In above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further [Selection - Example 3.1](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection).<br>
 <br>
 
 
