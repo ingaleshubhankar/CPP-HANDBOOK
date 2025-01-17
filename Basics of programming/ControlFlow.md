@@ -171,7 +171,7 @@ int main()
 In Above program we are using concept of **Iteration** with the help of for loop here to print `A` 4 times.<br>
 
 
-Example 2.2,<br>
+Example 2.3,<br>
 Write a program which is used to print 4 times `A` by using for loop.
 
 ```
