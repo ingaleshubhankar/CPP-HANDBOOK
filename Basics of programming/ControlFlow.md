@@ -14,7 +14,7 @@ To get desired output if you want to apply some steps in sequential format then 
 
 
 Example 1.1,<br>
-Write a program which is used to print name,address & mobile no of a person.
+Write a program which is used to print name, address & mobile no of a person.
 
 ```
 int main()
@@ -26,7 +26,7 @@ int main()
 }
 ```
 
-In Above program we have to print three different things on screen due to which we have to use concept of Sequence.<br>
+In Above program we have to print three different things on screen due to which we have to use concept of **sequence**.<br>
 <br>
 
 
@@ -44,7 +44,7 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2. <br>
+In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.2.<br>
 
 
 Example 1.3,<br>
@@ -64,11 +64,11 @@ int main()
 }
 ```
 
-In Above program we are using concept of **sequence**, We can replace it into Iterator, we can see that in further Example 2.3.
+In Above program we are using concept of **sequence**, We can replace it into **iterator**, we can see that in further Example 2.3.
 <br>
 
 Example 1.4,<br>
-Write a program which is used to print even no from 2 to 12 by using function.
+Write a program which is used to print even no from 2 to 12 by using the concept of sequence.
 
 ```
 int main()
@@ -78,12 +78,12 @@ int main()
     printf("6");
     printf("8");
     printf("10");
-    printf("10");
+    printf("12");
     return 0;
 }
 ```
 
-In Above program we are using concept of **Sequence**, We can replace it into **Iteration** & **Selection**, we can see that in further Example 3.1.<br>
+In Above program we are using concept of **sequence**, We can replace it into **iteration** & **selection**, we can see that in further Example 3.1.<br>
 <br>
 
 
@@ -108,7 +108,6 @@ Explaination:-<br>
  3) At this place we can write modification code used to change value of loop counter. we can write increment or decrement conditions multiple times.
 
 4) At this place we can write actual loop body which gets executed multiple times. inside loop body we can use **Sequence**, **Selection** or **Iteration**.
-<br>
 <br>
 
 ### [while](#for-loop)
@@ -160,7 +159,7 @@ Write a program which is used to print 4 times `A` by using for loop.
 int main()
 {
     int i=0;
-    for(i=1;i<=10;i++)
+    for(i=0;i<=3;i++)
     {
         printf("A");
     }
@@ -205,8 +204,8 @@ Write a program which is used to print even no from 2 to 12 by using function.
 ```
 int main()
 {
-    int i=0;
-    for(i=0;i<=12;i++)
+    int i=2;
+    for(i=2;i<=12;i++)
     {
         if(i%2==0) {
             printf("%d",i);
