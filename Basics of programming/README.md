@@ -19,13 +19,18 @@ Time complexity and space complexity are two key concepts in computer science an
 Time complexity is a measure of the amount of time an algorithm takes to complete as a function of the input size `n`. It is used to analyze how the runtime of an algorithm scales with larger inputs, helping us evaluate its efficiency.<br>
 
 > Key Points about **Time Complexity**,
- - **Independent of Machine**: Time complexity focuses on the algorithm's structure and logic, not the hardware it runs on.
- - **Growth Rate**: It describes the rate at which the algorithm's runtime increases with respect to the input size.
- - **Big-O Notation**: The most common way to express time complexity, e.g., O(1),O(n), O(n^2), etc.<br>
+1. **Independent of Machine**: Time complexity focuses on the algorithm's structure and logic, not the hardware it runs on.
+2. **Growth Rate**: It describes the rate at which the algorithm's runtime increases with respect to the input size.
+3. **Big-O Notation**: The most common way to express time complexity, e.g., O(1),O(n), O(n^2), etc.
+
+    - O(1): Constant time — the runtime is independent of the input size.
+    - O(n): Linear time — the runtime grows linearly with input size.
+    - O(logn): Logarithmic time — the runtime grows logarithmically with input size.
+    - O(n^2): Quadratic time — the runtime grows quadratically with input size.
 <br>
 <br>
 
 ### [Space Complexity](#space-complexity)
-
+Space complexity is the total amount of memory an algorithm uses as a function of the input size  n. It accounts for both the auxiliary space (temporary space used during execution) and the input space.
 
 
