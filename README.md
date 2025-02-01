@@ -98,10 +98,10 @@
  - 7.7 [C++ 20]()
 
 
-## 8.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
- - 8.1 [Creational Patterns]()
- - 8.2 [Structural Patterns]()
- - 8.3 [Behavioral Patterns]()
+## 8.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/README.md)
+ - 8.1 [Creational Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md)
+ - 8.2 [Structural Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md)
+ - 8.3 [Behavioral Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md)
 
 ## 9.[Design Principles](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
 
