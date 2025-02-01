@@ -71,4 +71,9 @@ The above class & design is good and Idea example of Singleton Design Pattern, N
 ## 2) Factory
 The Factory Pattern is a creational design pattern that provides an interface for creating objects but lets subclasses decide which class to instantiate. Instead of calling a constructor directly, the factory method returns an instance of the appropriate class.
 
-It is widely used in applications where object creation logic is complex and should be centralized for better maintainability.
+It is widely used in applications where object creation logic is complex and should be centralized for better maintainability.<br>
+
+| Factory Pattern |
+|:--------------:|
+| <img src="factory_design_pattern_img.png" alt="Centered Image" width="400"> |
+<br>
