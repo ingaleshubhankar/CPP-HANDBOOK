@@ -3,4 +3,4 @@ This design pattern provides way of creating the objects while hiding creation l
 
 This gives flexibility to program, which object needs to create.
 
-## 1)Singleton
+## Singleton
