@@ -77,3 +77,19 @@ It is widely used in applications where object creation logic is complex and sho
 |:--------------:|
 | <img src="factory_design_pattern_img.png" alt="Centered Image" width="400"> |
 <br>
+
+Factory pattern is type of creational designing pattern, which deals with object creation mechanism.<br>
+
+In CPP we an achive basic factory pattern by "Creating object using seperate method & polymorphic class"
+
+### Abstract Factory:-
+abstract factory is useful in situation that requires creation of different types of object. all are derived from common base type.<br>
+
+Abstract factory defines method for creating object, which subclass can override to specify detived type that will be create. thus at run time appropriate method will be called depend on which type of object get pointed.<br>
+
+Factory pattern, it creates object for you rather you intiating object directly. It also known as **"Virtual Constructor"**.<br>
+
+C++ does not have virtual constructor because in order to call virtual function you require object.<br>
+
+
+
