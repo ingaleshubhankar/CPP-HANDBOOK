@@ -4,10 +4,12 @@ This design pattern provides way of creating the objects while hiding creation l
 This gives flexibility to program, which object needs to create.
 
 ## 1) Singleton
+The Singleton Pattern is a creational design pattern that ensures a class has only one instance and provides a global point of access to that instance. It is widely used in software development where only a single instance of a class is required throughout the application's lifecycle.<br>
+
+
 |   Singleton    |
 |:--------------:|
 | <img src="singleton_design_pattern_img.png" alt="Centered Image" width="400"> |
-
 <br>
 
 Some components on our system only need to have single Instance.<br>
@@ -62,3 +64,8 @@ int main()
 }
 
 ```
+
+The above class & design is good and Idea example of Singleton Design Pattern, No problem till it face any dependency problem between Client and Service Implementation.<br>
+
+
+## 2) Factory
