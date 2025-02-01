@@ -15,7 +15,7 @@ The Singleton Pattern is a creational design pattern that ensures a class has on
 Some components on our system only need to have single Instance.<br>
 
 For ex,
-Database Class Object. The DB that loads up from its constructor into program & gives info. Ince it is loaded, you dont really want more than one object.
+Database Class Object. The DB that loads up from its constructor into program & gives info. Once it is loaded, you dont really want more than one object.
 
 Points to be note for making a Singleton Class,
  - Private Constructor.
