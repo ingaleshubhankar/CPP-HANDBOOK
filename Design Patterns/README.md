@@ -21,3 +21,12 @@ Design patterns are proven solutions that help address this challenge. They are:
  - Helpful in preventing the need for refactoring code frequently.
  - Capable of lowering the overall size of the codebase.
 
+
+## Why you should learn design patterns?
+If we boil-down the definition of OODesign. It combines Data & Behaviour into single bond(class/struct). It bond very tight while designing indivisual object.<br>
+
+But when you design complete system you need to tak into account below things,
+
+ - [Creational](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md):- How those objects going to instantiate/create.
+ - [Structural](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md):- How thoses combine with other objects & formlize bigger entity.
+ - [Behavioral](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md):-You also need to thing in terms of communication between objects which can anticipate further changes. easily or with fewer side effects.
