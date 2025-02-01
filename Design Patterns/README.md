@@ -20,6 +20,7 @@ Design patterns are proven solutions that help address this challenge. They are:
  - Efficient in handling large solutions elegantly.
  - Helpful in preventing the need for refactoring code frequently.
  - Capable of lowering the overall size of the codebase.
+<br>
 
 
 ## Why you should learn design patterns?
