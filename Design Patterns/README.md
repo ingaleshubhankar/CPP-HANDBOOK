@@ -29,4 +29,4 @@ But when you design complete system you need to tak into account below things,
 
  - [Creational](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md) :- How those objects going to instantiate/create.
  - [Structural](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md) :- How thoses combine with other objects & formlize bigger entity.
- - [Behavioral](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md) :-You also need to thing in terms of communication between objects which can anticipate further changes. easily or with fewer side effects.
+ - [Behavioral](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md) :-You also need to think in terms of communication between objects which can anticipate further changes. easily or with fewer side effects.
