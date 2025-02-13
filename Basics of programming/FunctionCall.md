@@ -12,3 +12,18 @@ function_name(argument1, argument2, ...);
  - ```function_name:``` The name of the function to be executed.
  - ```arguments:``` The values passed to the function (if required).
 
+
+## Example of a Function Call:
+```
+#include <iostream>
+using namespace std;
+
+void greet() {
+    cout << "Hello, World!" << endl;
+}
+
+int main() {
+    greet();  // Function call
+    return 0;
+}
+```
