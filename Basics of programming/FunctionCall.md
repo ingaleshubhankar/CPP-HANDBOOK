@@ -57,4 +57,69 @@ int main() {
 ```
 
 ***Key Point:*** The value of a remains unchanged after the function call.
+<br>
 
+### 2. Call by Address (Pointer)
+Call by Address (also called Call by Pointer) is a mechanism where the address of the actual argument is passed to the function. The function modifies the value of the original variable using the pointer.
+
+Explanation:
+The function gets a pointer to the actual variable.
+Any modification inside the function affects the original variable.
+Useful when we need to modify the actual data or work with dynamically allocated memory.
+
+Example:
+```
+#include <iostream>
+using namespace std;
+
+void modify(int *x) {  // x is a pointer to the original variable
+    *x = *x + 10;      // Modifies the actual variable
+}
+
+int main() {
+    int a = 5;
+    modify(&a);  // Pass by address
+    cout << "Value of a after function call: " << a << endl;  // Output: 15
+    return 0;
+}
+```
+
+***Key Point:*** The value of a gets updated because we pass its address.
+<br>
+
+### 3. Call by Reference
+Call by Reference is a function calling mechanism where a reference to the actual argument is passed to the function. The function operates directly on the original variable.
+
+Explanation:
+The function gets a reference to the original variable, not a copy.
+Any modifications inside the function reflect in the caller.
+Works like Call by Address but uses references instead of pointers.
+
+Example:
+```
+#include <iostream>
+using namespace std;
+
+void modify(int &x) {  // x is a reference to the actual variable
+    x = x + 10;        // Modifies the actual variable
+}
+
+int main() {
+    int a = 5;
+    modify(a);  // Pass by reference
+    cout << "Value of a after function call: " << a << endl;  // Output: 15
+    return 0;
+}
+```
+***Key Point:*** The value of a is updated without using pointers.
+
+
+
+## Cross Comparison of Types of function call
+### 📝 Comparison Table
+
+| Function Call Type  | Passing Mechanism  | Modifies Original Variable? | Use Case |
+|--------------------|------------------|----------------------------|---------|
+| **Call by Value**      | Copy of variable  | ❌ No                         | When original value must be preserved |
+| **Call by Address**   | Pointer to variable | ✅ Yes                        | When modifying original data using pointers |
+| **Call by Reference** | Reference to variable | ✅ Yes                        | When modifying original data without pointers |
