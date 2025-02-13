@@ -4,3 +4,11 @@ A function call in C++ is the process of executing a function by specifying its 
 A function call is an expression that invokes a function to perform a specific task. It passes control and possibly arguments to the function and may receive a return value after execution.<br>
 
 
+## Syntax:-
+```
+function_name(argument1, argument2, ...);
+```
+
+ - ```function_name:``` The name of the function to be executed.
+ - ```arguments:``` The values passed to the function (if required).
+
