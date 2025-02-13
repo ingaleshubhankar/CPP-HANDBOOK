@@ -3,7 +3,6 @@ A function call in C++ is the process of executing a function by specifying its 
 
 A function call is an expression that invokes a function to perform a specific task. It passes control and possibly arguments to the function and may receive a return value after execution.<br>
 
-
 ## Syntax:-
 ```
 function_name(argument1, argument2, ...);
@@ -27,6 +26,8 @@ int main() {
     return 0;
 }
 ```
+<br>
+<br>
 
 
 ## Types of Function call:-
@@ -58,6 +59,7 @@ int main() {
 
 ***Key Point:*** The value of a remains unchanged after the function call.
 <br>
+<br>
 
 ### 2. Call by Address (Pointer)
 Call by Address (also called Call by Pointer) is a mechanism where the address of the actual argument is passed to the function. The function modifies the value of the original variable using the pointer.
@@ -86,6 +88,7 @@ int main() {
 
 ***Key Point:*** The value of a gets updated because we pass its address.
 <br>
+<br>
 
 ### 3. Call by Reference
 Call by Reference is a function calling mechanism where a reference to the actual argument is passed to the function. The function operates directly on the original variable.
@@ -112,11 +115,11 @@ int main() {
 }
 ```
 ***Key Point:*** The value of a is updated without using pointers.
+<br>
+<br>
 
 
-
-## Cross Comparison of Types of function call
-### 📝 Comparison Table
+## 📝 Cross Comparison of Types of function call
 
 | Function Call Type  | Passing Mechanism  | Modifies Original Variable? | Use Case |
 |--------------------|------------------|----------------------------|---------|
