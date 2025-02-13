@@ -29,13 +29,14 @@
 	- 3.1.3 [Iteration](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/ControlFlow.md#3-selection)
  - 3.2 [Time and Space Complexity](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Basics%20of%20programming#time-and-space-complexity)
  - 3.3 [Function Call](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/FunctionCall.md)
+    - 3.3.1 Call by Value
+    - 3.3.2 Call by Address
+    - 3.3.3 Call by Reference
  - 3.4 Recursion
  - 3.5 Program - Demonstration of Execution Flow
  - 3.6 Storage Classes
  - 3.7 Stack View of Program Execution
  - 3.8 Function Calling Technique
-    - 3.8.1 Call by Value
-    - 3.8.2 Call by Address
  - 3.9 Problems of Digits
 
 

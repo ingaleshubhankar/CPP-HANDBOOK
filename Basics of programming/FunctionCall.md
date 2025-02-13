@@ -32,7 +32,7 @@ int main() {
 
 ## Types of Function call:-
 
-### 1. Call by Value
+### [1. Call by Value](#1-call-by-value)
 Call by Value is a function calling mechanism where a copy of the actual argument is passed to the function. Any modifications made inside the function do not affect the original variable.
 
 Explanation:
@@ -61,7 +61,7 @@ int main() {
 <br>
 <br>
 
-### 2. Call by Address (Pointer)
+### [2. Call by Address](#2-call-by-address)
 Call by Address (also called Call by Pointer) is a mechanism where the address of the actual argument is passed to the function. The function modifies the value of the original variable using the pointer.
 
 Explanation:
@@ -90,7 +90,7 @@ int main() {
 <br>
 <br>
 
-### 3. Call by Reference
+### [3. Call by Reference](#3-call-by-reference)
 Call by Reference is a function calling mechanism where a reference to the actual argument is passed to the function. The function operates directly on the original variable.
 
 Explanation:
