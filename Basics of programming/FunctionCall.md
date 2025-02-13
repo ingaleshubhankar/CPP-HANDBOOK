@@ -27,3 +27,34 @@ int main() {
     return 0;
 }
 ```
+
+
+## Types of Function call:-
+
+### 1. Call by Value
+Call by Value is a function calling mechanism where a copy of the actual argument is passed to the function. Any modifications made inside the function do not affect the original variable.
+
+Explanation:
+The function gets a separate copy of the variable.
+Changes made inside the function do not reflect outside.
+Used when we want to protect the original data from being modified.
+
+Example:
+```
+#include <iostream>
+using namespace std;
+
+void modify(int x) {  // x is a copy of the original variable
+    x = x + 10;       // Changes only the local copy
+}
+
+int main() {
+    int a = 5;
+    modify(a);  // Pass by value
+    cout << "Value of a after function call: " << a << endl;  // Output: 5
+    return 0;
+}
+```
+
+***Key Point:*** The value of a remains unchanged after the function call.
+
