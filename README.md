@@ -93,9 +93,6 @@
  - 7.2 Exception Handling
  - 7.3 Templates
  - 7.4 STL
- - 7.5 C++ 11
- - 7.6 C++ 17
- - 7.7 C++ 20
 
 
 ## 8.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/README.md)
