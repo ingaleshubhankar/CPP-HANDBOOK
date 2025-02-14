@@ -35,6 +35,12 @@
  - 3.4 Recursion
  - 3.5 Program - Demonstration of Execution Flow
  - 3.6 Storage Classes
+    - 3.6.1 Auto Storage Class
+    - 3.6.2 Extern Storage Class
+    - 3.6.3 Static Storage Class
+    - 3.6.4 Register Storage Class
+    - 3.6.5 Mutable Storage Class
+    - 3.6.6 thread_local Storage Class
  - 3.7 Stack View of Program Execution
  - 3.8 Function Calling Technique
 
