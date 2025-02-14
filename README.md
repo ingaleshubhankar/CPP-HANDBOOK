@@ -52,21 +52,20 @@
  - 5.3 [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#encapsulation)
  - 5.4 [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#inheritance)
  - 5.5 [Polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#polymorphism)
- - 5.6 Pointer to Object
- - 5.7 Nested Classes
- - 5.8 Inline Functions
- - 5.9 Static Class Member
- - 5.10 Access Modifier
- - 5.11 Access Specifier
-    - 5.11.1 Friend
-    - 5.11.2 Member
-    - 5.11.3 Class
-    - 5.11.4 Function
- - 5.12 Constructor and Destructor
-    - 5.12.1 Types
-    - 5.12.2 Empty
-    - 5.12.3 Dynamic Constructor
- - 5.13 Virtual
+ - 5.6 Nested Classes
+ - 5.7 Inline Functions
+ - 5.8 Static Class Member
+ - 5.8 Access Modifier
+ - 5.10 Access Specifier
+    - 5.10.1 Friend
+    - 5.10.2 Member
+    - 5.10.3 Class
+    - 5.10.4 Function
+ - 5.11 Constructor and Destructor
+    - 5.11.1 Types
+    - 5.11.2 Empty
+    - 5.11.3 Dynamic Constructor
+ - 5.12 Virtual
 
 
 ## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md)
