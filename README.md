@@ -37,7 +37,6 @@
  - 3.6 Storage Classes
  - 3.7 Stack View of Program Execution
  - 3.8 Function Calling Technique
- - 3.9 Problems of Digits
 
 
 ## 4.[Data Structures](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
