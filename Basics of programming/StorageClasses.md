@@ -183,9 +183,59 @@ int main() {
     return 0;
 }
 ```
+
 #### Pointers:-
  - register suggests faster access by storing the variable in a CPU register.
  - If no free register is available, it behaves like a normal variable in RAM.
  - You cannot get the memory address of a register variable using pointers.
  - Modern compilers often ignore the register keyword because they automatically optimize variable storage for the best performance.
+
+
+
+### [5. Mutable Storage Class](#5-mutable-storage-class)
+The mutable storage class is used inside classes or structs when you want to allow specific variables to be modified, even if the object itself is marked as const.
+
+Normally, when an object is declared as const, none of its data members can be changed. However, sometimes you might need to update only a particular member, such as a cache value or a log counter, without modifying the entire object. In such cases, the mutable keyword helps by making that specific variable modifiable inside const functions.
+
+**Properties** of mutable Storage Class Objects
+ > The mutable specifier **does NOT** affect the **linkage** or **lifetime** of the object.
+ > It will be the **same as the normal object** declared in that place.
+<br>
+
+#### Example:
+```cpp
+#include <iostream>
+using namespace std;
+
+class A {
+public:
+    int x;
+
+    // Defining mutable variable y
+    // now this can be modified
+    mutable int y;
+
+    A(): x(4), y(10) {}
+};
+
+int main() {
+  
+    // a is created as constant
+    const A a;
+
+    // Trying to change the value
+    a.y = 200;
+    cout << a.y;
+
+    // Uncommenting below lines
+    // will throw error
+    /* a.x = 8;
+    cout << a.x; */
+  
+    return 0;
+}
+```
+
+
+
 
