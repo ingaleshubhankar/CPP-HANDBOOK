@@ -91,7 +91,7 @@
 
 ## 7.[Advanced Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
  - 7.1 [Thread](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/Thread.md#thread)
- - 7.2 Exception Handling
+ - 7.2 [Exception Handling](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/ExceptionHandling.md#exception-handling-in-c)
  - 7.3 Templates
  - 7.4 STL
 
