@@ -32,7 +32,7 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
  6) thread_local Storage Class
 
 
-### 1. auto Storage Class
+### [1. auto Storage Class](#1-auto-storage-class)
 The auto storage class is the default class of all the variables declared inside a block. The auto stands for automatic and all the local variables that are declared in a block automatically belong to this class.
 
 **Properties** of auto Storage Class Objects
@@ -44,7 +44,7 @@ The auto storage class is the default class of all the variables declared inside
 
 
 
-### 2. extern Storage Class
+### [2. extern Storage Class](#2-extern-storage-class)
 The extern storage class allows a variable to be defined in one file and used in another. It tells the compiler that the variable is declared somewhere else, so it doesn’t allocate memory for it again. Instead, it looks for the actual definition in another file during the linking process.
 
 In simpler terms, extern is like a reference to a global variable that is already defined elsewhere. This is useful in large programs where multiple files need to share the same variable without duplicating its definition.
