@@ -59,7 +59,11 @@
  - 5.7 [Inline Functions](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#inline-function-in-c)
      - 5.7.1 [Inline Function](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#1-inline-function)
     - 5.7.2 [Inline Function In Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#2-inline-function-in-classes)
- - 5.8 Virtual
+ - 5.8 [Virtual](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#virtual-concept-in-c)
+    - 5.8.1 [Virtual Functions](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#1-virtual-functions)
+    - 5.8.2 [Virtual Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#2-virtual-destructor)
+    - 5.8.3 [Pure Virtual Functions & Abstract Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#3-pure-virtual-functions--abstract-classes)
+    - 5.8.4 [VTable](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#4-virtual-table-vtable-and-virtual-pointer-vptr)    
  - 5.9 [Access Specifier in C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
  - 5.10 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
     - 5.10.1 [Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#types-of-constructors-in-c)

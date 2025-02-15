@@ -148,7 +148,7 @@ Base fun2
 
 ---
 
-## [5. Rules for Virtual Functions](#5-rules-for-virtual-functions)
+## [Rules for Virtual Functions](#rules-for-virtual-functions)
 1. **Declared in Base, Overridden in Derived** – Not mandatory but recommended.
 2. **Works with Pointers or References** – Static binding applies otherwise.
 3. **Destructors Should Be Virtual** – Prevents memory leaks.
