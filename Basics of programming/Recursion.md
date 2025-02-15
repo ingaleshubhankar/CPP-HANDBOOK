@@ -91,7 +91,9 @@ int fibonacci(int n) {
 
  - **Base case:** Stops recursion when `n <= 1`.
  - **Recursive case:** Calls `fibonacci(n-1)` and `fibonacci(n-2)`, reducing the problem size.
-
+<br>
+<br>
+<br>
 
 
 ## ⚠️ What Happens Without a Proper Base Case?
@@ -134,7 +136,8 @@ int main() {
  - **Base case:** Returns n when it becomes a single-digit number.
  - **Recursive case:** Adds n % 10 (last digit) to the sum of n / 10 (remaining digits).
 The function keeps calling itself until n reaches a single-digit.
-
+<br>
+<br>
 
 
 ## ✅ Conclusion
