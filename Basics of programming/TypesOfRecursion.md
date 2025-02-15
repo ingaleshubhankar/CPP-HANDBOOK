@@ -1,6 +1,6 @@
 # Types of Recursion
 
-## 1. [Head Recursion]()
+## 1. [Head Recursion](#1-head-recursion)
 Head recursion is special case of recursion. where first operation of function is recurive call.
 
 ### Example,
@@ -20,7 +20,7 @@ int fact(int No, int result)
 
 
 
-## 2. [Tail Recursion]()
+## 2. [Tail Recursion](#2-tail-recursion)
 Tail recursion is special case of recursion. where last operation of the function is recursive call.
 
 ### Example,
