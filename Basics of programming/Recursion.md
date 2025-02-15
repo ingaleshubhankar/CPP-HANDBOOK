@@ -24,8 +24,7 @@ There are **Two Types** of recursion:
 ### Tail Recursion
 
 ```cpp
-void fun()
-{
+void fun() {
     // Code
     fun();
 }
@@ -35,8 +34,7 @@ void fun()
 ### Head Recursion
 
 ```cpp
-void gun()
-{
+void gun() {
     gun()
     //Code
 }
@@ -70,6 +68,8 @@ int factorial(int n) {
 
  - **Base case:** if (n == 0) return 1; ensures recursion stops.
  - Without a base case, recursion would go infinitely, causing a crash.
+<br>
+<br>
 
 
 
