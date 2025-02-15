@@ -51,9 +51,21 @@ Derived class show function
 ```
 
 ---
+<br>
+
 
 ## [2. Virtual Destructor](#2-virtual-destructor)
-If a base class has a virtual function, the **destructor should also be virtual** to ensure proper cleanup.
+
+### What is a Virtual Destructor?
+A **virtual destructor** in C++ is a destructor that is declared as virtual in the base class. It ensures that the destructor of the derived class is called correctly when a base class pointer is used to delete a derived class object.
+
+### Why Do We Need a Virtual Destructor?
+In C++, if a base class has a non-virtual destructor, and an object of the derived class is deleted using a base class pointer, only the base class destructor will be called. This can lead to memory leaks, as the derived class’s destructor (which may release dynamically allocated resources) will not execute.
+
+By declaring the **destructor as virtual**, we ensure that the correct destructor sequence (first the derived class, then the base class) executes properly.
+<br>
+<br>
+
 
 ### Example of Virtual Destructor
 ```cpp
@@ -88,40 +100,46 @@ Base Destructor
 ```
 
 ---
+<br>
+
 
 ## [3. Pure Virtual Functions & Abstract Classes](#3-pure-virtual-functions--abstract-classes)
-A **pure virtual function** has no definition in the base class and must be overridden in derived classes. A class containing a pure virtual function is called an **abstract class**.
 
-### Example of Abstract Class
+### What is a Pure Virtual Function?
+A **pure virtual function** in C++ is a function that must be overridden in a derived class. It is declared in a base class, but it does not have a definition in that class.
+
+A pure virtual function is written using the = 0 syntax in the base class:
+#### Example of Pure virtual function
 ```cpp
-#include <iostream>
-using namespace std;
+class Base {
+public:
+    virtual void show() = 0; // Pure virtual function
+};
+```
+When a class contains at least **one pure virtual function**, it becomes an abstract class.
+<br>
 
+### What is an Abstract Class?
+An **abstract class** is a class that cannot be instantiated (i.e., you cannot create objects of it directly). It serves as a blueprint for derived classes, ensuring they implement specific functions.
+
+#### Example of Abstract Class
+```cpp
 class Shape {
 public:
-    virtual void draw() = 0;  // Pure virtual function
+    virtual void draw() = 0; // Pure virtual function
 };
+```
 
-class Circle : public Shape {
-public:
-    void draw() override {
-        cout << "Drawing a Circle" << endl;
-    }
-};
+ - Here, Shape is an abstract class because it has a pure virtual function.
+ - Any class that inherits Shape must provide its own implementation of draw().
+<br>
 
-int main() {
-    Shape* shapePtr = new Circle();
-    shapePtr->draw();
-    delete shapePtr;
-    return 0;
-}
-```
-**Output:**
-```
-Drawing a Circle
-```
 
 ---
+<br>
+<br>
+
+
 
 ## [4. VTable](#4-vtable)
 When a class has virtual functions, the compiler creates a **virtual table (vtable)** storing function pointers. Each object has a **vptr (virtual table pointer)** to enable dynamic dispatch.
@@ -160,6 +178,9 @@ Base fun2
 ```
 
 ---
+<br>
+<br>
+
 
 ## [Rules for Virtual Functions](#rules-for-virtual-functions)
 1. **Declared in Base, Overridden in Derived** – Not mandatory but recommended.
