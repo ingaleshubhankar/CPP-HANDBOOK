@@ -1,7 +1,20 @@
 # [Virtual Concept in C++](#virtual-concept-in-c)
 
 ## [1. Virtual Functions](#1-virtual-functions)
-A **virtual function** is a function in a **base class** that can be **overridden** in a **derived class**. It enables **dynamic binding** at runtime.
+
+### What is a Virtual Function?
+A **virtual function** in C++ is a function that is **declared** in the **base class** and is meant to be **overridden in the derived class**. When a base class pointer or reference is used to call a virtual function, the function that gets executed is the one in the derived class (if overridden), not the one in the base class. This behavior is known as **dynamic dispatch** or **runtime polymorphism**.
+<br>
+
+
+### Why Do We Need Virtual Functions?
+By default, C++ uses **compile-time binding** (also known as static binding). This means that if a base class pointer or reference is used to call a function, the function from the base class will be executed, even if the pointer actually points to a derived class object. This is a limitation when trying to implement polymorphism, where we expect different behavior based on the actual object type.<br>
+
+
+To enable **runtime binding** (also called dynamic binding), we use virtual functions. This ensures that the function call is resolved at runtime instead of compile-time.
+<br>
+<br>
+
 
 ### Example of Virtual Function
 ```cpp
