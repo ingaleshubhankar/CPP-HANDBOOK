@@ -12,7 +12,8 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
 | `extern`    | ✅ Yes | ✅ Yes (makes function **available globally**) |
 | `register`  | ✅ Yes (suggests CPU register storage) | ❌ No |
 | `mutable`   | ✅ Yes (only in class members) | ❌ No |
-
+<br>
+<br>
 
 ## When you declare a variable in C++, its storage class defines:
  - **Where** it is stored (memory location).
