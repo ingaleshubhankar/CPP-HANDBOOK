@@ -1,7 +1,7 @@
 # Recursion ?
 Recursion is powerful programming **technique that can be used to solve problem, that can be expressed in terms of similer problem of smaller size**.<br>
 
-Recursion classification,
+Recursion classification
  - Linear Recursion
  - Binary Recursion
  - N-ary Recursion
