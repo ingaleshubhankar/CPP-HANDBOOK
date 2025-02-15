@@ -42,7 +42,6 @@
     - 3.6.5 Mutable Storage Class
     - 3.6.6 thread_local Storage Class
  - 3.7 Stack View of Program Execution
- - 3.8 Function Calling Technique
 
 
 ## 4.[Data Structures](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
