@@ -110,7 +110,7 @@ Drawing a Circle
 
 ---
 
-## [4. Virtual Table (VTable) and Virtual Pointer (VPTR)](#4-virtual-table-vtable-and-virtual-pointer-vptr)
+## [4. VTable](#4-vtable)
 When a class has virtual functions, the compiler creates a **virtual table (vtable)** storing function pointers. Each object has a **vptr (virtual table pointer)** to enable dynamic dispatch.
 
 ### Example of VTable Usage
