@@ -75,7 +75,6 @@ int factorial(int n) {
 
 
 
-
 ### 🔹 **2. Recursive Case – The Infinite Condition**
 The **recursive case calls** the function itself to **reduce the problem into smaller instances**.
 
@@ -94,3 +93,67 @@ int fibonacci(int n) {
 
  - **Base case:** Stops recursion when `n <= 1`.
  - **Recursive case:** Calls `fibonacci(n-1)` and `fibonacci(n-2)`, reducing the problem size.
+
+
+
+### ⚠️ What Happens Without a Proper Base Case?
+If the function does not move toward the base case, it leads to infinite recursion.
+
+#### ❌ Example: Infinite Recursion
+```cpp
+void infiniteRecursion(int n) {
+    cout << "n = " << n << endl;
+    infiniteRecursion(n - 1);  // No base case! This runs forever
+}
+```
+
+This function **never stops** because there is no termination condition.
+It results in stack overflow.
+<br>
+
+
+### 📝 Example: Sum of Digits Using Recursion
+Let’s write a recursive function to calculate the sum of digits of a number.
+
+#### 🔹 Recursive Breakdown
+Base Case: If the number has one digit, return it.
+Recursive Case: Extract the last digit and sum it with the sum of the remaining digits.
+
+#### 📌 C++ Implementation
+```cpp
+#include <iostream>
+using namespace std;
+
+int sumOfDigits(int n) {
+    if (n < 10) return n; // Base case: A single-digit number
+    return (n % 10) + sumOfDigits(n / 10); // Recursive case
+}
+
+int main() {
+    cout << sumOfDigits(1234); // Output: 10 (1+2+3+4)
+    return 0;
+}
+```
+
+ - **Base case:** Returns n when it becomes a single-digit number.
+ - **Recursive case:** Adds n % 10 (last digit) to the sum of n / 10 (remaining digits).
+The function keeps calling itself until n reaches a single-digit.
+
+
+
+### ✅ Conclusion
+ - Every recursive function must have a base case (stopping condition).
+ - The recursive case must move toward the base case to prevent infinite recursion.
+ - Without a base case, recursion will run forever and cause a stack overflow error.
+ - Recursion is powerful and is commonly used in tree traversal, dynamic programming, and divide-and-conquer algorithms! 🚀
+<br>
+
+
+### 📌 Recursion Structure Summary
+
+| **Term**              | **Definition**                                    | **Example**                          |
+|----------------------|------------------------------------------------|----------------------------------|
+| **Base Case**        | Condition where recursion stops                 | `if (n == 0) return 1;`         |
+| **Recursive Case**   | Function calls itself to break the problem down | `return n * factorial(n - 1);`  |
+| **Infinite Recursion** | When the function doesn't reach a base case   | `f(n) { f(n-1); }` (without base case) |
+
