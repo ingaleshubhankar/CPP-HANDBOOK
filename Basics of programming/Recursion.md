@@ -75,3 +75,22 @@ int factorial(int n) {
 
 
 
+
+### 🔹 **2. Recursive Case – The Infinite Condition**
+The **recursive case calls** the function itself to **reduce the problem into smaller instances**.
+
+#### ✅ **Why is the Recursive Case Needed?**
+ - It breaks the problem into **smaller subproblems.**
+ - Works toward the **base case** in each step.
+ - Helps in **divide-and-conquer** problem-solving.
+
+#### 📌 **Example: Factorial Base Case**
+```cpp
+int fibonacci(int n) {
+    if (n <= 1) return n; // Base case: fib(0) = 0, fib(1) = 1
+    return fibonacci(n - 1) + fibonacci(n - 2); // Recursive case
+}
+```
+
+ - **Base case:** Stops recursion when `n <= 1`.
+ - **Recursive case:** Calls `fibonacci(n-1)` and `fibonacci(n-2)`, reducing the problem size.
