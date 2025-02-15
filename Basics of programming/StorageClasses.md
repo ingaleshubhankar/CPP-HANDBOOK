@@ -21,7 +21,6 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
  - **Who** can access it (scope/visibility).
  - What its **default value** is (if not initialized explicitly).
 <br>
-<br>
 
 
 ## C++ provides 6 different storage classes, which are as follows:
@@ -42,6 +41,45 @@ The auto storage class is the default class of all the variables declared inside
 > **Memory Location:** RAM <br>
 > **Lifetime:** Till the end of its scope <br>
 <br>
+
+
+
+### 2. extern Storage Class
+The extern storage class allows a variable to be defined in one file and used in another. It tells the compiler that the variable is declared somewhere else, so it doesn’t allocate memory for it again. Instead, it looks for the actual definition in another file during the linking process.
+
+In simpler terms, extern is like a reference to a global variable that is already defined elsewhere. This is useful in large programs where multiple files need to share the same variable without duplicating its definition.
+
+**Properties** of auto Storage Class Objects
+> **Scope:** Global <br>
+> **Default Value:** Zero <br>
+> **Memory Location:** RAM <br>
+> **Lifetime:** Till the end of the program <br>
+<br>
+
+File 1 (Defines the variable)
+```cpp
+// file1.cpp
+#include <iostream>
+
+int count = 10;  // Variable defined here
+
+void display() {
+    std::cout << "Count: " << count << std::endl;
+}
+```
+
+File 2 (Uses the variable)
+```cpp
+// file2.cpp
+#include <iostream>
+
+extern int count;  // Declaring (not defining) the variable
+
+int main() {
+    std::cout << "Using extern: " << count << std::endl;
+    return 0;
+}
+```
 
 
 
