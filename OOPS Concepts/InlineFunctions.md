@@ -17,7 +17,6 @@ int main() {
     return 0;
 }
 ```
-<br>
 
 
 ### How It Works?
