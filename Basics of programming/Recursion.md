@@ -145,7 +145,7 @@ The function keeps calling itself until n reaches a single-digit.
  - Every recursive function must have a base case (stopping condition).
  - The recursive case must move toward the base case to prevent infinite recursion.
  - Without a base case, recursion will run forever and cause a stack overflow error.
- - Recursion is powerful and is commonly used in tree traversal, dynamic programming, and divide-and-conquer algorithms! 🚀
+ - Recursion is powerful and is commonly used in tree traversal, dynamic programming, and divide-and-conquer algorithms!
 <br>
 
 
