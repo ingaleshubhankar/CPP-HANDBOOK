@@ -42,9 +42,33 @@ void gun()
 }
 ```
 
-## Thing Recursive way
-Every recursive solution consist of 2 ways,
-1) Base case - Termination condition
-2) Recursive case - Infinite condition
+## 🌀 Recursive Thinking
+
+Every recursive solution consists of **two essential components**:
+
+1. **Base Case (Termination Condition)** – The condition where recursion stops.
+2. **Recursive Case (Infinite Condition)** – The case where the function calls itself to break the problem into smaller subproblems.
+
+---
+
+### 🔹 **1. Base Case – The Termination Condition**
+The **base case** is the stopping condition of recursion. Without it, recursion would **run indefinitely**, causing a **stack overflow error**.
+
+#### ✅ **Why is a Base Case Important?**
+- Ensures the function **does not run forever**.
+- Defines the simplest case where the function **knows what to return**.
+- Prevents excessive memory usage.
+
+#### 📌 **Example: Factorial Base Case**
+```cpp
+int factorial(int n) {
+    if (n == 0) return 1;  // Base case: factorial(0) = 1
+    return n * factorial(n - 1); // Recursive case
+}
+```
+
+ - **Base case:** if (n == 0) return 1; ensures recursion stops.
+ - Without a base case, recursion would go infinitely, causing a crash.
+
 
 
