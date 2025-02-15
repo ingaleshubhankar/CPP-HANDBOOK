@@ -81,5 +81,18 @@ int main() {
 }
 ```
 
+### [3. static Storage Class](#3-static-storage-class)
+A static variable in C++ keeps its value even after the function where it was declared finishes running. Unlike normal variables that get created and destroyed each time a function runs, a static variable is initialized only once and retains its value throughout the program's execution.
 
+When a static variable is inside a function, it remembers its last stored value every time the function is called. This makes it useful for counting function calls or storing values that shouldn’t reset between function calls.
 
+If a static variable is declared globally (outside of functions), it is only accessible within the same file. Unlike extern variables, which can be used across multiple files, global static variables have internal linkage, meaning they are restricted to the file where they are defined.
+
+They are declared using static keyword.
+
+**Properties** of auto Storage Class Objects
+> **Scope:** Local <br>
+> **Default Value:** Zero <br>
+> **Memory Location:** RAM <br>
+> **Lifetime:** Till the end of the program <br>
+<br>
