@@ -1,4 +1,4 @@
-# Exception Handling in C++
+# [Exception Handling in C++](#exception-handling-in-c)
 
 Exception handling in C++ is a mechanism used to handle runtime errors or exceptional situations in a structured way. It helps prevent program crashes and allows developers to manage errors efficiently.
 
