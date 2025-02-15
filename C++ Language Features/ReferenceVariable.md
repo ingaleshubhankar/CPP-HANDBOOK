@@ -1,4 +1,4 @@
-# Reference Variable 
+# [Reference Variable](#reference-variable)
 A reference variable in C++ is an alias (another name) for an existing variable. It allows us to refer to the same memory location with a different name. References are primarily used for function arguments and return values to avoid unnecessary copying of data.
 
 
@@ -48,3 +48,4 @@ ref = b;  // This does NOT change 'ref' to refer to 'b'. Instead, it changes 'a'
 ```
 
 ### 3. No separate memory allocation
+A reference shares the same memory as the original variable.
