@@ -189,7 +189,7 @@ int main() {
  - If no free register is available, it behaves like a normal variable in RAM.
  - You cannot get the memory address of a register variable using pointers.
  - Modern compilers often ignore the register keyword because they automatically optimize variable storage for the best performance.
-
+<br>
 
 
 ### [5. Mutable Storage Class](#5-mutable-storage-class)
@@ -235,7 +235,79 @@ int main() {
     return 0;
 }
 ```
+<br>
 
 
+
+### [5. thread_local Storage Class](#5-thread_local-storage-class)
+The **thread_local storage class was introduced in C++11** and is used to create variables that are unique to each thread. This means that **every thread gets its own separate copy of the variable**, preventing data conflicts when multiple threads are running.
+
+A thread_local variable exists only as long as the thread is running. When the thread ends, its copy of the variable is destroyed.
+
+You can also combine thread_local with static (to make it last for the thread’s lifetime) or extern (to share it across multiple files but still per thread).
+
+**Properties** of mutable Storage Class Objects
+ > **Memory Location:** RAM.
+ > **Lifetime:** Till the **end of its thread**.
+<br>
+
+
+
+
+#### Example:
+```cpp
+#include <iostream>
+#include <thread>
+#include <mutex>
+
+using namespace std;
+
+// Defining thread-local variable
+thread_local int count = 5;
+
+// Mutex for synchronization
+mutex mtx;
+
+void modifyValue(int increment, const string& threadName) {
+    count += increment;
+    
+    // Locking for safe console output
+    lock_guard<mutex> lock(mtx);
+    cout << threadName << " value: " << count << '\n';
+}
+
+int main() {
+    // Creating threads
+    thread th1(modifyValue, 10, "Thread 1");
+    thread th2(modifyValue, 20, "Thread 2");
+    thread th3(modifyValue, 30, "Thread 3");
+
+    // Wait for all threads to finish
+    th1.join();
+    th2.join();
+    th3.join();
+
+    // Print the value of count in the main thread
+    cout << "Main thread value: " << count << '\n';
+
+    return 0;
+}
+```
+<br>
+
+##### Output:
+```
+Thread 1 value: 15
+Thread 2 value: 25
+Thread 3 value: 35
+Main thread value: 5
+```
+
+
+##### Explaination:
+ - Each thread gets its own separate count variable because of thread_local, meaning their modifications don’t affect each other.
+
+ - Each thread increments its own version of count independently.
+A mutex (mtx) is used to prevent mixed-up console output when multiple threads print messages.
 
 
