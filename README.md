@@ -35,8 +35,8 @@
  - 3.4 [Recursion](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/Recursion.md)
  - 3.5 [Program - Demonstration of Execution Flow](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/DemonstractionOfProgramExecution.md)
  - 3.6 Storage Classes (https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md)
-    - 3.6.1 Auto Storage Class
-    - 3.6.2 Extern Storage Class
+    - 3.6.1 [Auto Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#1-auto-storage-class)
+    - 3.6.2 [Extern Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#2-extern-storage-class)
     - 3.6.3 Static Storage Class
     - 3.6.4 Register Storage Class
     - 3.6.5 Mutable Storage Class
