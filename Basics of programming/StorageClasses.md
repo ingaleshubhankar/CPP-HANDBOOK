@@ -101,7 +101,7 @@ They are declared using static keyword.
 
 #### Example:
 
-##### Static Variable Inside a Function
+##### Ex1 : Static Variable Inside a Function
 ```cpp
 #include <iostream>
 
@@ -129,7 +129,7 @@ Here, count retains its previous value instead of resetting to 0 on every functi
 <br>
 
 
-##### Static Global Variable Example
+##### Ex2 : Static Global Variable Example
 ```cpp
 #include <iostream>
 
@@ -145,3 +145,9 @@ int main() {
 }
 ```
 In this case, num is a global static variable, meaning it cannot be accessed from another file.
+<br>
+
+
+
+
+
