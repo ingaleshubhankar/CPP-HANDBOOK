@@ -44,7 +44,7 @@
 
 
 ## 4.[Data Structures](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
- - 4.1 Pointer
+ - 4.1 [Pointer](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Data%20Structures/Pointer.md#pointer)
  - 4.2 Array
 
 
