@@ -37,11 +37,10 @@
  - 3.6 [Storage Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md)
     - 3.6.1 [Auto Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#1-auto-storage-class)
     - 3.6.2 [Extern Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#2-extern-storage-class)
-    - 3.6.3 Static Storage Class
-    - 3.6.4 Register Storage Class
-    - 3.6.5 Mutable Storage Class
-    - 3.6.6 thread_local Storage Class
- - 3.7 Stack View of Program Execution
+    - 3.6.3 [Static Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#3-static-storage-class)
+    - 3.6.4 [Register Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#4-register-storage-class)
+    - 3.6.5 [Mutable Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#5-mutable-storage-class)
+    - 3.6.6 [thread_local Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#5-thread_local-storage-class)
 
 
 ## 4.[Data Structures](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
