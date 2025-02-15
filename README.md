@@ -57,8 +57,8 @@
  - 5.5 [Polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#polymorphism)
  - 5.6 Nested Classes
  - 5.7 Inline Functions
- - 5.8 Static Class Member
- - 5.8 Access Modifier
+ - 5.8 Virtual
+ - 5.9 Access Modifier
  - 5.10 Access Specifier
     - 5.10.1 Friend
     - 5.10.2 Member
@@ -68,7 +68,6 @@
     - 5.11.1 Types
     - 5.11.2 Empty
     - 5.11.3 Dynamic Constructor
- - 5.12 Virtual
 
 
 ## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md)
