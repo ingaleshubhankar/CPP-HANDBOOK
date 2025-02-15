@@ -1,25 +1,6 @@
-# Behavioral Design Patterns in C++
-
+# [Behavioral Design Patterns in C++](#behavioral-design-patterns-in-c)
 Behavioral design patterns focus on how objects interact and communicate with each other while ensuring flexibility and maintainability. These patterns help define the flow of control between objects and promote loose coupling.
 
-## **Common Behavioral Patterns in C++**
-Some well-known behavioral design patterns include:
-
-1. **Chain of Responsibility Pattern**
-2. **Command Pattern**
-3. **Interpreter Pattern**
-4. **Iterator Pattern**
-5. **Mediator Pattern**
-6. **Memento Pattern**
-7. **Observer Pattern**
-8. **State Pattern**
-9. **Strategy Pattern**
-10. **Template Method Pattern**
-11. **Visitor Pattern**
-
-Let's discuss **two of the most important** behavioral patterns in C++: **Observer** and **Strategy**.
-
----
 
 ## **1. Observer Pattern**
 The **Observer pattern** defines a **one-to-many dependency** between objects, ensuring that when one object changes state, all its dependents are notified automatically.
