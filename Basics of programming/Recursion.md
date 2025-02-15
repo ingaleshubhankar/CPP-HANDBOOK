@@ -23,7 +23,7 @@ There are **Two Types** of recursion:
 
 ### Tail Recursion
 
-```
+```cpp
 void fun()
 {
     // Code
@@ -34,7 +34,7 @@ void fun()
 
 ### Head Recursion
 
-```
+```cpp
 void gun()
 {
     gun()
@@ -46,13 +46,11 @@ void gun()
 
 
 ## 🌀 Recursive Thinking
-
 Every recursive solution consists of **two essential components**:
-
 1. **Base Case (Termination Condition)** – The condition where recursion stops.
 2. **Recursive Case (Infinite Condition)** – The case where the function calls itself to break the problem into smaller subproblems.
+<br>
 
----
 
 ### 🔹 **1. Base Case – The Termination Condition**
 The **base case** is the stopping condition of recursion. Without it, recursion would **run indefinitely**, causing a **stack overflow error**.
@@ -96,10 +94,10 @@ int fibonacci(int n) {
 
 
 
-### ⚠️ What Happens Without a Proper Base Case?
+## ⚠️ What Happens Without a Proper Base Case?
 If the function does not move toward the base case, it leads to infinite recursion.
 
-#### ❌ Example: Infinite Recursion
+### ❌ Example: Infinite Recursion
 ```cpp
 void infiniteRecursion(int n) {
     cout << "n = " << n << endl;
@@ -114,10 +112,8 @@ It results in stack overflow.
 
 ### 📝 Example: Sum of Digits Using Recursion
 Let’s write a recursive function to calculate the sum of digits of a number.
-
-#### 🔹 Recursive Breakdown
-Base Case: If the number has one digit, return it.
-Recursive Case: Extract the last digit and sum it with the sum of the remaining digits.
+ - Base Case: If the number has one digit, return it.
+ - Recursive Case: Extract the last digit and sum it with the sum of the remaining digits.
 
 #### 📌 C++ Implementation
 ```cpp
@@ -141,7 +137,7 @@ The function keeps calling itself until n reaches a single-digit.
 
 
 
-### ✅ Conclusion
+## ✅ Conclusion
  - Every recursive function must have a base case (stopping condition).
  - The recursive case must move toward the base case to prevent infinite recursion.
  - Without a base case, recursion will run forever and cause a stack overflow error.
@@ -149,7 +145,7 @@ The function keeps calling itself until n reaches a single-digit.
 <br>
 
 
-### 📌 Recursion Structure Summary
+## 📌 Recursion Structure Summary
 
 | **Term**              | **Definition**                                    | **Example**                          |
 |----------------------|------------------------------------------------|----------------------------------|
