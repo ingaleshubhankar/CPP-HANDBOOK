@@ -100,9 +100,5 @@
  - 8.2 [Structural Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md#structural-design-patterns-in-c)
  - 8.3 [Behavioral Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md#behavioral-design-patterns-in-c)
 
-## 9.[Design Principles](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
-
-
-
 ---
 
