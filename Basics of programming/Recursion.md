@@ -7,8 +7,8 @@ Recursion classification happen in three types Linear Recursion, Binary Recursio
 
 
 There are **two categories** of recursion:
-1. Direct recursion
-2. Indirect recursion
+ 1. Direct recursion
+ 2. Indirect recursion
 
 
 There are **two types** of recursion:
