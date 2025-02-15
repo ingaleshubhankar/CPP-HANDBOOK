@@ -1,4 +1,4 @@
-# Array
+# [Array](#array)
 An array in C++ is a collection of multiple values of the same data type stored in a single variable. It helps in organizing data efficiently, making it easier to access and manipulate.
 
 ## Why Use Arrays?
