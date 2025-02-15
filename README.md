@@ -58,10 +58,9 @@
  - 5.6 [Nested Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/NestedClasses.md)
  - 5.7 Inline Functions
  - 5.8 Virtual
- - 5.9 Access Modifier
- - 5.10 [Access Specifier in C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
- - 5.11 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
-    - 5.11.1 [Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#types-of-constructors-in-c)
+ - 5.9 [Access Specifier in C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
+ - 5.10 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
+    - 5.10.1 [Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#types-of-constructors-in-c)
 
 
 ## 6.[C++ Language Features](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md)
