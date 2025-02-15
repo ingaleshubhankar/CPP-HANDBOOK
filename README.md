@@ -77,7 +77,7 @@
     - 6.1.4 [Abstract Data Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/README.md#4-abstract-or-void-data-type)
  - 6.2 [Input and Output Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/InputOutputOpr.md)
  - 6.3 [Reference Variable](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ReferenceVariable.md#reference-variable)
- - 6.4 Scope Resolution Operator
+ - 6.4 [Scope Resolution Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ScopeResolutionOperator.md#scope-resolution-operator)
  - 6.5 Memory Management Operator
  - 6.6 Type Casting Operator
     - 6.6.1 Implicit Casting
