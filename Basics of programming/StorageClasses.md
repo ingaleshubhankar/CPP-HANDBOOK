@@ -21,3 +21,15 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
  - What its **default value** is (if not initialized explicitly).
 
 
+C++ provides 6 different storage classes, which are as follows:
+ 1) auto Storage Class
+ 2) extern Storage Class
+ 3) static Storage Class
+ 4) register Storage Class
+ 5) mutable Storage Class
+ 6) thread_local Storage Class
+
+
+
+
+
