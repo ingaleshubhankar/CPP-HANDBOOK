@@ -1,4 +1,4 @@
-# Template
+# [Template](#template)
 
 Templates in C++ allow us to write generic code that works with different data types without having to rewrite the same logic multiple times. This is useful when we want to create functions or classes that can handle multiple data types efficiently.
 
