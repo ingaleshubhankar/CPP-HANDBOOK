@@ -53,7 +53,7 @@ In simpler terms, extern is like a reference to a global variable that is alread
 > **Scope:** Global <br>
 > **Default Value:** Zero <br>
 > **Memory Location:** RAM <br>
-> **Lifetime:** Till the end of the program <br>
+> **Lifetime:** Till the end of the program
 <br>
 
 #### Example:
@@ -81,6 +81,9 @@ int main() {
     return 0;
 }
 ```
+<br>
+
+
 
 ### [3. static Storage Class](#3-static-storage-class)
 A static variable in C++ keeps its value even after the function where it was declared finishes running. Unlike normal variables that get created and destroyed each time a function runs, a static variable is initialized only once and retains its value throughout the program's execution.
@@ -95,7 +98,7 @@ They are declared using static keyword.
 > **Scope:** Local <br>
 > **Default Value:** Zero <br>
 > **Memory Location:** RAM <br>
-> **Lifetime:** Till the end of the program <br>
+> **Lifetime:** Till the end of the program
 <br>
 
 
