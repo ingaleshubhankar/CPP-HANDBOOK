@@ -64,7 +64,7 @@
     - 5.10.2 Member
     - 5.10.3 Class
     - 5.10.4 Function
- - 5.11 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md)
+ - 5.11 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
     - 5.11.1 [Types](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#types-of-constructors-in-c)
 
 

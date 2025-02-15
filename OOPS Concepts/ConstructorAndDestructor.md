@@ -243,7 +243,7 @@ int main() {
 | **Default Constructor**     | No parameters, initializes with default values. |
 | **Parameterized Constructor** | Takes arguments to initialize members. |
 | **Copy Constructor**        | Creates a new object as a copy of an existing object. |
-| **Move Constructor**        | Transfers ownership of resources from one object to another (C++11+). |
+| **Move Constructor**        | Transfers ownership of resources from one object to another (C++11). |
 <br>
 <br>
 
