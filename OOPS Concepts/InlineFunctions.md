@@ -41,7 +41,7 @@ This eliminates the overhead of a function call (like pushing arguments to the s
 <br>
 
 
-## 2. Inline Function in Classes
+## [2. Inline Function in Classes](#2-inline-function-in-classes)
 In C++, class member functions defined inside the class are implicitly inline.
 ```cpp
 #include <iostream>
@@ -59,11 +59,9 @@ int main() {
 }
 ```
 <br>
-<br>
 
 ### Compiler Decision on Inlining
 The inline keyword is only a request to the compiler; it may ignore it if the function is too large or complex. Modern compilers use optimization techniques and decide whether to inline a function based on performance trade-offs.
-<br>
 <br>
 
 
