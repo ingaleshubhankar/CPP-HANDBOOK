@@ -48,8 +48,8 @@ int main() {
 ```
 
 ### Explanation:
- - std::cout is used to display text on the screen.
- - std::cin is used to take user input.
- - The >> operator is used to take input, while the << operator is used for output.
+ - `std::cout` is used to display text on the screen.
+ - `std::cin` is used to take user input.
+ - The `>> operator` is used to take input, while the `<< operator` is used for output.
 
 
