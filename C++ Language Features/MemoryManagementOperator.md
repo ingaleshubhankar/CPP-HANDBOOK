@@ -1,4 +1,4 @@
-# Memory Management Operators
+# [Memory Management Operators](#memory-management-operators)
 In C++, `new` and `delete` are used for **dynamic memory allocation** and **deallocation** on the **heap**. This is useful when you don’t know the size of data at compile time. C++ provides these two key memory management operators to dynamically allocate and deallocate memory at runtime.
 <br>
 <br>
