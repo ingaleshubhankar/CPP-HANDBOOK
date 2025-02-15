@@ -1,9 +1,10 @@
-# Scope Resolution Operator (::) in C++
+# [Scope Resolution Operator](#scope-resolution-operator)
 The Scope Resolution Operator (::) in C++ is used to define and access members (variables, functions, etc.) that belong to a specific scope, such as a class, namespace, or global scope. It helps differentiate between local and global identifiers with the same name.
+<br>
 <br>
 
 
-## Uses of Scope Resolution Operator in C++
+## Uses of Scope Resolution Operator (::) in C++
 
 ### 1. Accessing Global Variables
 If a local variable has the same name as a global variable, `::` can be used to access the global variable.
