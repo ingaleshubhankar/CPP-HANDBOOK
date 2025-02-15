@@ -55,7 +55,7 @@
  - 5.3 [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#encapsulation)
  - 5.4 [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#inheritance)
  - 5.5 [Polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#polymorphism)
- - 5.6 Nested Classes
+ - 5.6 [Nested Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/NestedClasses.md)
  - 5.7 Inline Functions
  - 5.8 Virtual
  - 5.9 Access Modifier
