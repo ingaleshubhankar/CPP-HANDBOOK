@@ -56,7 +56,9 @@
  - 5.4 [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#inheritance)
  - 5.5 [Polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/OOPS%20Concepts#polymorphism)
  - 5.6 [Nested Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/NestedClasses.md)
- - 5.7 Inline Functions
+ - 5.7 [Inline Functions](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#inline-function-in-c)
+     - 5.7.1 [Inline Function](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#1-inline-function)
+    - 5.7.2 [Inline Function In Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#2-inline-function-in-classes)
  - 5.8 Virtual
  - 5.9 [Access Specifier in C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
  - 5.10 [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
