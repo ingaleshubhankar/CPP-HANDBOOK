@@ -37,9 +37,11 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
 The auto storage class is the default class of all the variables declared inside a block. The auto stands for automatic and all the local variables that are declared in a block automatically belong to this class.
 
 **Properties** of auto Storage Class Objects
-> **Scope:** Local
-> **Default Value:** Garbage Value
-> **Memory Location:** RAM
-> **Lifetime:** Till the end of its scope
+> **Scope:** Local <br>
+> **Default Value:** Garbage Value <br>
+> **Memory Location:** RAM <br>
+> **Lifetime:** Till the end of its scope <br>
+<br>
+
 
 
