@@ -79,14 +79,14 @@
  - 6.3 [Reference Variable](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ReferenceVariable.md#reference-variable)
  - 6.4 [Scope Resolution Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ScopeResolutionOperator.md#scope-resolution-operator)
  - 6.5 [Memory Management Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/MemoryManagementOperator.md#memory-management-operators)
- - 6.6 Type Casting Operator
-    - 6.6.1 Implicit Casting
-    - 6.6.2 Explicit Casting
-    - 6.6.3 Addition Casting Operator
-        - 6.6.3.1 Static Cast
-        - 6.6.3.2 Dynamic Cast
-        - 6.6.3.3 Constant Cast
-        - 6.6.3.4 Reinterpret Cast
+ - 6.6 [Type Casting Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#type-casting-operator)
+    - 6.6.1 [Implicit Casting](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#1-implicit-casting)
+    - 6.6.2 [Explicit Casting](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#2-explicit-casting)
+    - 6.6.3 [Addition Casting Operator](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#3-addition-casting-operators)
+        - 6.6.3.1 [Static Cast](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#31-static_cast)
+        - 6.6.3.2 [Dynamic Cast](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#32-dynamic_cast)
+        - 6.6.3.3 [Constant Cast](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#33-const_cast)
+        - 6.6.3.4 [Reinterpret Cast](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#34-reinterpret_cast)
 
 
 ## 7.[Advanced Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
