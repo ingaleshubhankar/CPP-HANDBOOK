@@ -27,8 +27,6 @@ This eliminates the overhead of a function call (like pushing arguments to the s
 
 
 ### When to Use Inline Functions?
-2. When to Use Inline Functions?
-
 ✅ Use inline functions for:
  - Small functions (typically 1-5 lines).
  - Functions that are frequently called.
