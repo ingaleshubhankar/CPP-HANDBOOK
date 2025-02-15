@@ -93,7 +93,6 @@
  - 7.1 [Thread](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/Thread.md#thread)
  - 7.2 [Exception Handling](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/ExceptionHandling.md#exception-handling-in-c)
  - 7.3 Templates
- - 7.4 STL
 
 
 ## 8.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/README.md)
