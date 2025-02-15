@@ -1,4 +1,4 @@
-# Pointers in C++
+# [Pointer](#pointer)
 
 ## What is a Pointer?
 A pointer is a special type of variable in C++ that stores the memory address of another variable instead of directly storing a value. Since memory addresses are unique for every variable, pointers help in efficiently accessing and manipulating memory locations. This concept is crucial for advanced programming techniques such as dynamic memory allocation, data structures like linked lists, and function callbacks.
