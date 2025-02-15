@@ -154,3 +154,41 @@ In this case, num is a global static variable, meaning it cannot be accessed fro
 
 
 
+
+### [4. register Storage Class](#4-register-storage-class)
+The register storage class is used to suggest that a variable should be stored in a CPU register instead of the main memory (RAM). This makes accessing the variable much faster because registers are the quickest storage locations inside the processor.
+
+However, the compiler decides whether to store the variable in a register or not based on availability. If no free registers are available, the variable is stored in RAM like a normal variable.
+
+One special rule about register variables is that **you cannot get their memory address using pointers** because they might be stored in a register instead of RAM.
+
+Properties of register Storage Class Objects.
+
+**Properties** of auto Storage Class Objects
+> **Scope:** Local <br>
+> **Default Value:** Garbage Value <br>
+> **Memory Location:** Register in CPU or RAM <br>
+> **Lifetime:** Till the end of its scope
+<br>
+
+#### Example:
+```cpp
+#include <iostream>
+
+int main() {
+    register int count = 10;  // Suggests storing count in a CPU register
+    std::cout << "Count: " << count << std::endl;
+
+    // Trying to get the address (this will cause an error)
+    // std::cout << &count; 
+
+    return 0;
+}
+```
+#### Pointers:-
+ - register suggests faster access by storing the variable in a CPU register.
+ - If no free register is available, it behaves like a normal variable in RAM.
+ - You cannot get the memory address of a register variable using pointers.
+ - Modern compilers often ignore the register keyword because they automatically optimize variable storage for the best performance.
+
+ 
