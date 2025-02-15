@@ -14,8 +14,8 @@ There are **Two Categories** of recursion:
 
 
 There are **Two Types** of recursion:
-1. Head Recursion
-2. Tail Recursion
+1. [Head Recursion](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/TypesOfRecursion.md#1-head-recursion)
+2. [Tail Recursion](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/TypesOfRecursion.md#2-tail-recursion)
 <br>
 
 
