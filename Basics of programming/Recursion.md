@@ -42,3 +42,9 @@ void gun()
 }
 ```
 
+## Thing Recursive way
+Every recursive solution consist of 2 ways,
+1) Base case - Termination condition
+2) Recursive case - Infinite condition
+
+
