@@ -2,7 +2,7 @@
 An inline function in C++ is a function that the compiler expands in place wherever it is called, instead of performing a normal function call. This can improve performance by reducing the overhead of function calls, especially for small and frequently used functions.
 
 
-## [1. Syntax of Inline Function](#1-syntax-of-inline-function)
+## [1. Inline Function](#1-inline-function)
 To define an inline function, use the inline keyword before the function 
 ```cpp
 #include <iostream>
