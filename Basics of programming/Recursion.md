@@ -7,17 +7,38 @@ Recursion classification happen in three types Linear Recursion, Binary Recursio
 <br>
 
 
-There are **two categories** of recursion:
+There are **Two Categories** of recursion:
  1. Direct recursion
  2. Indirect recursion
 <br>
 
 
-There are **two types** of recursion:
+There are **Two Types** of recursion:
 1. Head Recursion
 2. Tail Recursion
 <br>
 
 
+## Examples:-
 
-## Syntax:-
+### Tail Recursion
+
+```
+void fun()
+{
+    // Code
+    fun();
+}
+```
+
+
+### Head Recursion
+
+```
+void gun()
+{
+    gun()
+    //Code
+}
+```
+
