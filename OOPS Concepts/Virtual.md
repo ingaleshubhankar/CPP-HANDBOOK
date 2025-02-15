@@ -1,6 +1,6 @@
-# Virtual Concept in C++
+# [Virtual Concept in C++](#virtual-concept-in-c)
 
-## 1. Virtual Functions
+## [1. Virtual Functions](#1-virtual-functions)
 A **virtual function** is a function in a **base class** that can be **overridden** in a **derived class**. It enables **dynamic binding** at runtime.
 
 ### Example of Virtual Function
@@ -39,7 +39,7 @@ Derived class show function
 
 ---
 
-## 2. Virtual Destructor
+## [2. Virtual Destructor](#2-virtual-destructor)
 If a base class has a virtual function, the **destructor should also be virtual** to ensure proper cleanup.
 
 ### Example of Virtual Destructor
@@ -76,7 +76,7 @@ Base Destructor
 
 ---
 
-## 3. Pure Virtual Functions & Abstract Classes
+## [3. Pure Virtual Functions & Abstract Classes](#3-pure-virtual-functions--abstract-classes)
 A **pure virtual function** has no definition in the base class and must be overridden in derived classes. A class containing a pure virtual function is called an **abstract class**.
 
 ### Example of Abstract Class
@@ -110,7 +110,7 @@ Drawing a Circle
 
 ---
 
-## 4. Virtual Table (VTable) and Virtual Pointer (VPTR)
+## [4. Virtual Table (VTable) and Virtual Pointer (VPTR)](#4-virtual-table-vtable-and-virtual-pointer-vptr)
 When a class has virtual functions, the compiler creates a **virtual table (vtable)** storing function pointers. Each object has a **vptr (virtual table pointer)** to enable dynamic dispatch.
 
 ### Example of VTable Usage
@@ -148,7 +148,7 @@ Base fun2
 
 ---
 
-## 5. Rules for Virtual Functions
+## [5. Rules for Virtual Functions](#5-rules-for-virtual-functions)
 1. **Declared in Base, Overridden in Derived** – Not mandatory but recommended.
 2. **Works with Pointers or References** – Static binding applies otherwise.
 3. **Destructors Should Be Virtual** – Prevents memory leaks.
