@@ -2,9 +2,9 @@
 Recursion is powerful programming **technique that can be used to solve problem, that can be expressed in terms of similer problem of smaller size**.<br>
 
 Recursion classification,
- 1) Linear Recursion
- 2) Binary Recursion
- 3) N-ary Recursion
+ - Linear Recursion
+ - Binary Recursion
+ - N-ary Recursion
 
 Important pointers:
  - Recursion is concept which can be used in any programming language which internally users user stack as data structure.
