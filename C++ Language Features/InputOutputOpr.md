@@ -9,15 +9,14 @@ C++ does not have built-in statements for input and output (I/O). Instead, it pr
 - **istream** → Handles input operations (e.g., taking user input)
 - **ostream** → Handles output operations (e.g., displaying output)
 
----
 
-## What is a Stream?
+### What is a Stream?
 
 A **stream** is a sequence of characters that flow from or to an I/O device.
 
 ---
 
-## 📌 I/O Objects in iostream
+### I/O Objects in iostream
 
 The `iostream` library provides four key objects for I/O operations:
 
@@ -27,6 +26,7 @@ The `iostream` library provides four key objects for I/O operations:
 4. **clog** (see-log) → General information (type: `ostream`)
 
 Among these, **cin** and **cout** are the most commonly used.
+<br>
 
 ---
 
