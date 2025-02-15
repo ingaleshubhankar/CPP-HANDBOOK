@@ -110,12 +110,16 @@ void infiniteRecursion(int n) {
 This function **never stops** because there is no termination condition.
 It results in stack overflow.
 <br>
+<br>
+
 
 
 ### 📝 Example: Sum of Digits Using Recursion
 Let’s write a recursive function to calculate the sum of digits of a number.
  - Base Case: If the number has one digit, return it.
  - Recursive Case: Extract the last digit and sum it with the sum of the remaining digits.
+<br>
+
 
 #### 📌 C++ Implementation
 ```cpp
