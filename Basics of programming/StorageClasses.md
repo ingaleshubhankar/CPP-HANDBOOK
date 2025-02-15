@@ -56,6 +56,7 @@ In simpler terms, extern is like a reference to a global variable that is alread
 > **Lifetime:** Till the end of the program <br>
 <br>
 
+#### Example:
 File 1 (Defines the variable)
 ```cpp
 // file1.cpp
@@ -96,3 +97,51 @@ They are declared using static keyword.
 > **Memory Location:** RAM <br>
 > **Lifetime:** Till the end of the program <br>
 <br>
+
+
+#### Example:
+
+##### Static Variable Inside a Function
+```cpp
+#include <iostream>
+
+void counter() {
+    static int count = 0;  // Initialized only once
+    count++;  // Retains its value between function calls
+    std::cout << "Count: " << count << std::endl;
+}
+
+int main() {
+    counter();
+    counter();
+    counter();
+    return 0;
+}
+```
+
+###### Output:
+```
+Count: 1  
+Count: 2  
+Count: 3  
+```
+Here, count retains its previous value instead of resetting to 0 on every function call.
+<br>
+
+
+##### Static Global Variable Example
+```cpp
+#include <iostream>
+
+static int num = 100;  // Can only be used in this file
+
+void display() {
+    std::cout << "Num: " << num << std::endl;
+}
+
+int main() {
+    display();
+    return 0;
+}
+```
+In this case, num is a global static variable, meaning it cannot be accessed from another file.
