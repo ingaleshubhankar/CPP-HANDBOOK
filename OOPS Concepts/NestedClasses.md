@@ -199,8 +199,8 @@ If you want the nested class to access private members, you can explicitly decla
 <br>
 
 ## Conclusion
-🔹 A nested class is still a separate class, even though it's inside another class.<br>
-🔹 By default, nested classes do NOT inherit access to private members of the outer class.<br>
+🔹 A `nested class` is still a separate class, even though it's inside another class.<br>
+🔹 By default, nested classes **do NOT inherit** access to private members of the outer class.<br>
 🔹 If needed, we can use `friend` to grant access to private members.<br>
 <br>
 <br>
