@@ -1,5 +1,5 @@
 # Recursion ?
-Recursion is powerful programming **technique that can be used to solve problem, that can be expressed in terms of similer problem of smaller size**.<br>
+Recursion is powerful programming **technique that can be used to solve problem, that can be expressed in terms of similer problem of smaller size**.
 
 Recursion classification
  - Linear Recursion
