@@ -20,14 +20,14 @@ int main() {
 <br>
 
 
-## How It Works?
+### How It Works?
 When square(5) is called, the compiler replaces it with 5 * 5 directly.
 This eliminates the overhead of a function call (like pushing arguments to the stack, jumping to the function, etc.).
 <br>
 <br>
 
 
-## When to Use Inline Functions?
+### When to Use Inline Functions?
 2. When to Use Inline Functions?
 
 ✅ Use inline functions for:
