@@ -149,9 +149,7 @@ int main() {
 ```
 In this case, num is a global static variable, meaning it cannot be accessed from another file.
 <br>
-
-
-
+<br>
 
 
 
@@ -191,4 +189,3 @@ int main() {
  - You cannot get the memory address of a register variable using pointers.
  - Modern compilers often ignore the register keyword because they automatically optimize variable storage for the best performance.
 
- 
