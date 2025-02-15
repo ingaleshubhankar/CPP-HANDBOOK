@@ -3,7 +3,7 @@ C++ does not have built-in statements for input and output (I/O). Instead, it pr
 
 ---
 
-## What is iostream?
+## 📌 What is iostream?
 
 `iostream` stands for **Input Output Stream** and is made up of two main components:
 - **istream** → Handles input operations (e.g., taking user input)
@@ -17,7 +17,7 @@ A **stream** is a sequence of characters that flow from or to an I/O device.
 
 ---
 
-## I/O Objects in iostream
+## 📌 I/O Objects in iostream
 
 The `iostream` library provides four key objects for I/O operations:
 
@@ -30,7 +30,7 @@ Among these, **cin** and **cout** are the most commonly used.
 
 ---
 
-## Example: Using cin & cout
+## Example: 📝 Using cin & cout
 
 ```cpp
 #include <iostream>
