@@ -1,8 +1,8 @@
-# Type Casting Operator
+# [Type Casting Operator](#type-casting-operator)
 Type casting in C++ is the process of converting one data type into another. It is used when you need to work with different data types in a way that ensures compatibility while maintaining control over how the conversion happens.<br>
 
 
-## 1 Implicit Casting
+## [1 Implicit Casting](#1-implicit-casting)
 Implicit casting happens automatically when the compiler converts one data type to another without needing the programmer’s intervention. It occurs when there is no risk of data loss.
 
 ### Example
@@ -20,7 +20,7 @@ Here, a is an int, but when assigned to b, it is automatically converted to a do
 <br>
 
 
-## 2 Explicit Casting
+## [2 Explicit Casting](#2-explicit-casting)
 Explicit casting is when the programmer manually converts a data type using casting syntax. This is necessary when converting between incompatible types or when there's a risk of data loss.
 
 ### Example
@@ -37,10 +37,10 @@ Here, x is a double, but when assigned to y, it is manually converted to int, tr
 <br>
 
 
-### 3 Addition Casting Operators
+### [3 Addition Casting Operators](#3-addition-casting-operators)
 C++ provides four special casting operators that give more control over type conversion.<br>
 
-#### 3.1 static_cast
+#### [3.1 static_cast](#31-static_cast)
 This is the most commonly used type casting operator. It is used for conversions between compatible types at compile time.
 
 ##### Example:
@@ -57,7 +57,7 @@ Here, pi is explicitly cast to int, dropping the decimal part.
 
 
 
-#### 3.2 dynamic_cast
+#### [3.2 dynamic_cast](#32-dynamic_cast)
 This is used for converting pointers or references in polymorphism (when dealing with inheritance). It ensures that a base class pointer is safely cast to a derived class pointer.
 
 ##### Example
@@ -88,7 +88,7 @@ Here, dynamic_cast safely converts a Base* to Derived*. If the conversion fails 
 
 
 
-#### 3.3 const_cast
+#### [3.3 const_cast](#33-const_cast)
 This is used to add or remove const from a variable. It is useful when modifying a const variable inside a function that does not allow modification.
 
 ##### Example:
@@ -113,7 +113,7 @@ Here, const_cast is used to remove const and allow modification of num.
 
 
 
-#### 3.4 reinterpret_cast
+#### [3.4 reinterpret_cast](#34-reinterpret_cast)
 This is the most powerful and dangerous casting operator. It allows conversion between completely different types, like pointers to unrelated objects.
 
 ##### Example:
