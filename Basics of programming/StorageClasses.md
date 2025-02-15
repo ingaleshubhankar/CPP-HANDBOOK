@@ -19,9 +19,11 @@ Storage classes in C++ primarily apply to **variables**, But some storage class 
  - **How long** it exists (lifetime).
  - **Who** can access it (scope/visibility).
  - What its **default value** is (if not initialized explicitly).
+<br>
+<br>
 
 
-C++ provides 6 different storage classes, which are as follows:
+## C++ provides 6 different storage classes, which are as follows:
  1) auto Storage Class
  2) extern Storage Class
  3) static Storage Class
