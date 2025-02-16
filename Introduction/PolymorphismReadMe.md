@@ -11,7 +11,7 @@
 
 2. **Run-Time Polymorphism** (Dynamic Polymorphism):
 
-    - **Virtual Functions**: Functions declared with the virtual keyword in a base class can be overridden in derived classes. The function to be invoked is determined at **runtime** based on the object type, enabling dynamic method dispatch. for more details around this, please refer [virtual](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#virtual-concept-in-c).
+    - **Virtual Functions**: Functions declared with the `virtual` keyword in a base class **can be overridden in derived classes**. The function to be invoked is determined at **runtime** based on the object type, enabling dynamic method dispatch. for more details around this, please refer [virtual](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#virtual-concept-in-c).
 <br>
 
 ---
