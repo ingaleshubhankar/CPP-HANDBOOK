@@ -51,6 +51,8 @@ int main() {
 
  For more detailed explaination please refer [Abstraction](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/AbstractionReadMe.md)
 <br>
+<br>
+
 
 
 ## [Encapsulation](#encapsulation)
@@ -60,6 +62,8 @@ int main() {
  - Think of a class like a box that hides its contents. The box (class) has buttons (functions) on the outside that let you interact with what's inside, but you can't directly reach in and change things. The variables inside the class are usually marked as private so that they can't be accessed directly from outside the class. 
 
  For more detailed explaination please refer [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
+<br>
+<br>
 
 
 ## [Inheritance](#inheritance)
@@ -68,6 +72,7 @@ int main() {
  - The news class Inherits the property of original class called derived class. The Original class will be called base class.
 
  For more detailed explaination please refer [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
+<br>
 <br>
 
 
@@ -78,6 +83,8 @@ int main() {
    i) Compile-Time Polymorphism
    ii) Run-Time Polymorphism
 <br>
+<br>
+
 
 i) **Compile-Time Polymorphism (Static Polymorphism)**:
 The process where procedures are bound (linked) to the code to be executed at compile time is known as compile-time polymorphism. It is also known as early binding, static binding, or static linkage.
@@ -91,6 +98,8 @@ ii) **Run-Time Polymorphism (Dynamic Polymorphism)**:
  - Virtual Functions: Functions declared with the virtual keyword in a base class can be overridden in derived classes. The function to be invoked is determined at runtime based on the object type, enabling dynamic method dispatch.
 
  For more detailed explaination please refer [polymorphism](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/PolymorphismReadMe.md)
+<br>
+<br>
 
 
 
