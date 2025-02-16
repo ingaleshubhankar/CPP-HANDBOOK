@@ -62,13 +62,14 @@ For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/b
 - Click here for more [details](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#type-casting-operator)
 
 Type Casting Operator
-1.  Implicit Casting
-2.  Explicit Casting
-3.  Addition Casting Operator
-3.1   Static Cast
-3.2   Dynamic Cast
-3.3   Constant Cast
-3.4   Reinterpret Cast
+ - Implicit Casting
+ - Explicit Casting
+ - Addition Casting Operator
+    - Static Cast
+    - Dynamic Cast
+    - Constant Cast
+    - Reinterpret Cast
+<br>
 
 
 ---
