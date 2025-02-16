@@ -11,7 +11,8 @@ These are the fundamental types provided by C++. For more details click [here](h
 ## 2. Derived Data Types
 - Arrays
 - Pointers
-- References
+- References<br>
+
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/DataTypes.md#2-derived-data-types).
 
 
@@ -19,8 +20,7 @@ For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/b
 - Structures (`struct`)
 - Classes (`class`)
 - Enumerations (`enum`)
-- Typedefs and Aliases
-<br>
+- Typedefs and Aliases<br>
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/DataTypes.md#3-user-defined-data-types).
 
