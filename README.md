@@ -89,7 +89,7 @@
         - 6.6.3.4 [Reinterpret Cast](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/TypeCastingOperator.md#34-reinterpret_cast)
 
 
-## 7.[Advanced Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Data%20Structures#data-structure)
+## 7.[Advanced Concepts](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/README.md#advance-concepts)
  - 7.1 [Thread](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/Thread.md#thread)
  - 7.2 [Exception Handling](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/ExceptionHandling.md#exception-handling-in-c)
  - 7.3 [Templates](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/Template.md#template)
