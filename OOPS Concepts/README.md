@@ -94,5 +94,7 @@ ii) **Run-Time Polymorphism (Dynamic Polymorphism)**:
 
 
 
-What is a Nested Class?
-A nested class is a class defined inside another class. The nested class acts as a member of the outer class and has access to its private and protected members if needed.
+## [What is a Nested Class?](#what-is-a-nested-class)
+ - A Nested class is a class defined inside another class. The nested class acts as a member of the outer class and has access to its private and protected members if needed.
+
+For more detailed explaination please refer [Nested Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/NestedClasses.md#what-is-a-nested-class)
