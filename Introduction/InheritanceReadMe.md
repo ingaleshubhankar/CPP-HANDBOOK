@@ -40,6 +40,8 @@ int main() {
  - Derived Class (Car): Inherits from Vehicle and adds its own specific behavior (honk()).
  - Usage: In the main() function, an object of Car is created. This object can access the inherited drive() method and its own honk() method.
 <br>
+
+
 This above structure demonstrates **how single inheritance allows a derived class to inherit and extend the functionality of a base class**, promoting code reusability and logical organization.
 <br>
 
