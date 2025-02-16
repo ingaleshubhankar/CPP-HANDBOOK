@@ -1,6 +1,7 @@
 # [Data Structure](#data-structure)
 The most fundamental data structures in C++, the core ones are,
-1. Array
+
+## 1. Array
  - A fixed-size collection of elements of the same type.
  - Elements are stored in contiguous memory locations.
  - Supports random access via indexing.
@@ -13,7 +14,7 @@ For details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/m
 <br>
 
 
-2. Pointer
+## 2. Pointer
  - Stores the memory address of another variable.
  - Enables dynamic memory allocation and efficient array handling.
  - Example
@@ -26,7 +27,7 @@ For details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/m
 <br>
 
 
-3. Structure (struct)
+## 3. Structure (struct)
  - A user-defined data structure that groups variables of different types.
  - Used for logical grouping of related data.
  - Example:
@@ -40,7 +41,7 @@ struct Student {
  <br>
 
 
-3. Linked List (Basic Dynamic Structure)
+## 3. Linked List (Basic Dynamic Structure)
  - A collection of nodes, where each node stores data and a pointer to the next node.
  - Unlike arrays, it does not require contiguous memory.
  - Example of a basic singly linked list node:
