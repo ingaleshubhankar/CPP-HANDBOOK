@@ -1,5 +1,5 @@
 # Inheritance
-Inheritance is a fundamental concept in object-oriented programming (OOP) that promotes reusability. It allows a new class to acquire the properties and behaviors of an existing class, enabling the creation of new products based on existing ones. In C++, inheritance enables a class to inherit all characteristics and behaviors of its parent class automatically, allowing you to reuse, extend, or modify attributes and behaviors.
+`Inheritance` is a fundamental concept in object-oriented programming (OOP) that promotes **reusability**. It allows a new class to acquire the properties and behaviors of an existing class, enabling the creation of new products based on existing ones. In C++, inheritance enables a class to **inherit all characteristics and behaviors of its parent class automatically**, allowing you to **reuse**, **extend**, or **modify** attributes and behaviors.
 
 ## Types of Inheritance in C++:
 1. Single Inheritance: In this type, a class inherits from a single base class.
