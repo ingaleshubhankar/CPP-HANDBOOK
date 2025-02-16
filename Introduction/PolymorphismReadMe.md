@@ -1,5 +1,5 @@
 # Polymorphism
-Polymorphism, derived from the Greek words "poly" (many) and "morph" (form), refers to the ability of a single function, operator, or object to operate in multiple ways. Polymorphism means single name multiple behaviour or meaning.
+`Polymorphism`, derived from the Greek words "poly" (many) and "morph" (form), refers to the ability of a single function, operator, or object to operate in multiple ways. Polymorphism means **single name multiple behaviour or meaning**.
 <br>
 
 ## Types of Polymorphism in C++:
