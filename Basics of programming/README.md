@@ -36,7 +36,19 @@ Recursion is powerful programming technique that can be used to solve problem, t
 ## [Program - Demonstration of Execution Flow](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/DemonstractionOfProgramExecution.md#program---demonstration-of-execution-flow)
 This shows how basic programs execution flows. for details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/DemonstractionOfProgramExecution.md#program---demonstration-of-execution-flow)
 <br>
+<br>
 
+
+## [Storage Classes]()
+Storage classes define the scope, visibility, lifetime, and memory location of variables or functions. below are those storage classes.
+
+3.6 Storage Classes
+3.6.1 Auto Storage Class
+3.6.2 Extern Storage Class
+3.6.3 Static Storage Class
+3.6.4 Register Storage Class
+3.6.5 Mutable Storage Class
+3.6.6 thread_local Storage Class
 
 
 

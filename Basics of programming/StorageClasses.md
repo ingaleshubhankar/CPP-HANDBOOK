@@ -1,4 +1,4 @@
-# Stograge Classes
+# [Stograge Classes](#stograge-classes)
 Think of C++ Storage Classes like different types of storage where variables and functions are kept. Each type of storage has specific rules about where the data is stored, how long it stays, and who can access it.
 
 Storage classes in C++ primarily apply to **variables**, But some storage class specifiers can also be used with functions. However, not all storage classes are applicable to functions. Let's break it down:
