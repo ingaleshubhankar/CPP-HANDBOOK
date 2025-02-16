@@ -83,8 +83,6 @@ int main() {
    i) Compile-Time Polymorphism
    ii) Run-Time Polymorphism
 <br>
-<br>
-
 
 i) **Compile-Time Polymorphism (Static Polymorphism)**:
 The process where procedures are bound (linked) to the code to be executed at compile time is known as compile-time polymorphism. It is also known as early binding, static binding, or static linkage.
