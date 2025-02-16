@@ -7,7 +7,7 @@ Encapsulation means binding the data (attributes) and the methods (functions) th
 
 
 ## Example
-```
+```cpp
 #include <iostream>
 using namespace std;
 
