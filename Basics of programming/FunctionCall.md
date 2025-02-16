@@ -4,7 +4,7 @@ A function call in C++ is the process of executing a function by specifying its 
 A function call is an expression that invokes a function to perform a specific task. It passes control and possibly arguments to the function and may receive a return value after execution.<br>
 
 ## Syntax:-
-```
+```cpp
 function_name(argument1, argument2, ...);
 ```
 
@@ -13,7 +13,7 @@ function_name(argument1, argument2, ...);
 
 
 ## Example of a Function Call:
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -41,7 +41,7 @@ Changes made inside the function do not reflect outside.
 Used when we want to protect the original data from being modified.
 
 Example:
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -70,7 +70,7 @@ Any modification inside the function affects the original variable.
 Useful when we need to modify the actual data or work with dynamically allocated memory.
 
 Example:
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -99,7 +99,7 @@ Any modifications inside the function reflect in the caller.
 Works like Call by Address but uses references instead of pointers.
 
 Example:
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -126,3 +126,6 @@ int main() {
 | **Call by Value**      | Copy of variable  | ❌ No                         | When original value must be preserved |
 | **Call by Address**   | Pointer to variable | ✅ Yes                        | When modifying original data using pointers |
 | **Call by Reference** | Reference to variable | ✅ Yes                        | When modifying original data without pointers |
+
+
+---

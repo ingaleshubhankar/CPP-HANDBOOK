@@ -17,8 +17,8 @@ Time complexity and Space complexity are two key concepts in computer science an
  - [Space Complexity](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/TimeAndSpaceComplexity.md#space-complexity)
 
 
-## [Function Call]()
-
- - Call by Value
- - Call by Address
- - Call by Reference
+## [Function Call](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/FunctionCall.md#what-is-a-function-call)
+There are different types of function calls in c++. which are as follows,
+ - [Call by Value](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/FunctionCall.md#1-call-by-value)
+ - [Call by Address](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/FunctionCall.md#2-call-by-address)
+ - [Call by Reference](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/FunctionCall.md#3-call-by-reference)
