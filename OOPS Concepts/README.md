@@ -106,28 +106,41 @@ ii) **Run-Time Polymorphism (Dynamic Polymorphism)**:
 
 For more detailed explaination please refer [Nested Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/NestedClasses.md#what-is-a-nested-class)
 <br>
+<br>
+
 
 ## [Inline Functions](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#inline-function-in-c)
  - The `inline` is a **keyword** used to suggest that the compiler should replace a function call with the actual function code to reduce function call overhead. This can improve performance, especially for small, frequently used functions.
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/InlineFunctions.md#inline-function-in-c)
 <br>
+<br>
+
+
 
 ## [Virtual](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#virtual-concept-in-c)
  - The `virtual` keyword is used to enable **runtime polymorphism** in object-oriented programming (OOP). It allows a derived class to override a base class method, ensuring that the correct function is called for an object, even when accessed through a base class pointer or reference.
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/Virtual.md#virtual-concept-in-c)
-
+<br>
+<br>
 
 
 ## [Access Specifier in C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
  - Access specifiers in C++ define the **visibility** and **accessibility** of class members (variables and methods). They determine who can access the members of a class.
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/AccessSpacifiersInCpp.md#access-specifiers-in-c)
+<br>
+<br>
+
 
 
 ## [Constructor and Destructor](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
  - Constructors and destructors are special member functions of a class that are automatically invoked when an object is created or destroyed.
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/OOPS%20Concepts/ConstructorAndDestructor.md#constructor-and-destructor-in-c)
+<br>
+<br>
 
+
+---
