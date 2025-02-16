@@ -1,4 +1,4 @@
-# What is a Nested Class?
+# [What is a Nested Class?](#what-is-a-nested-class)
 A nested class is a class defined inside another class. 
 The nested class acts as a member of the outer class and has access to its private and protected members if needed.
 

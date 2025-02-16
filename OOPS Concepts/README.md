@@ -1,6 +1,5 @@
 # [OOPS Concepts](#oops-concepts)
 
-
 ## [Classes and Objects](#classes-and-objects)
 Object-Oriented Programming (OOP) is a way of designing programs using objects, which helps organize and reuse code easily.<br>
 
@@ -17,8 +16,7 @@ The term **objects** are run-time entities entities in an object oriented system
 An object is an actual house built using that blueprint. You can build many houses (objects) from the same blueprint (class), but each house can have different details, like the color of the walls or the furniture inside.
 
 **Example:-**
-
-```
+```cpp
 class Car {
 public:
     string brand;
@@ -43,9 +41,10 @@ int main() {
     return 0;
 }
 ```
+<br>
 
 
-### [Data Abstraction](#data-abstraction)
+## [Data Abstraction](#data-abstraction)
  - Abstraction means hiding the details of how something works and showing only what is necessary. It allows users to interact with a system without needing to understand its internal workings.
 
  - In programming, abstraction can be achieved by using access modifiers like the private keyword to hide certain parts of the code.
@@ -54,7 +53,7 @@ int main() {
 <br>
 
 
- ### [Encapsulation](#encapsulation)
+## [Encapsulation](#encapsulation)
  - The process of binding data and procedure into single unit is known as Encapsulation.
  - Encapsulation in C++ is the concept of bundling the data (variables) and the methods (functions) that operate on the data into a single unit, called a class. It also restricts direct access to some of the object's components, which is done to protect the integrity of the object.
 
@@ -63,22 +62,21 @@ int main() {
  For more detailed explaination please refer [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
 
 
- ### [Inheritance](#inheritance)
+## [Inheritance](#inheritance)
  - Inheritance is the process by which object of one class acquire the properties of object of another class. 
-  - Creating new class from existing one.
-  - The news class Inherits the property of original class called derived class. The Original class will be called base class.
+ - Creating new class from existing one.
+ - The news class Inherits the property of original class called derived class. The Original class will be called base class.
 
  For more detailed explaination please refer [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
 <br>
 
 
- ### [Polymorphism](#polymorphism)
+## [Polymorphism](#polymorphism)
  - It is the ability of a **single interface to have multiple forms**.
  - The same entity exhibits different behaviors.
  - There are two main types of polymorphism in C++:
    i) Compile-Time Polymorphism
    ii) Run-Time Polymorphism
-
 <br>
 
 i) **Compile-Time Polymorphism (Static Polymorphism)**:
@@ -96,4 +94,5 @@ ii) **Run-Time Polymorphism (Dynamic Polymorphism)**:
 
 
 
-
+What is a Nested Class?
+A nested class is a class defined inside another class. The nested class acts as a member of the outer class and has access to its private and protected members if needed.
