@@ -39,16 +39,15 @@ This shows how basic programs execution flows. for details click [here](https://
 <br>
 
 
-## [Storage Classes]()
-Storage classes define the scope, visibility, lifetime, and memory location of variables or functions. below are those storage classes.
+## [Storage Classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#stograge-classes)
+Storage classes define the scope, visibility, lifetime, and memory location of variables or functions. below are those [storage classes](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#stograge-classes).
 
-3.6 Storage Classes
-3.6.1 Auto Storage Class
-3.6.2 Extern Storage Class
-3.6.3 Static Storage Class
-3.6.4 Register Storage Class
-3.6.5 Mutable Storage Class
-3.6.6 thread_local Storage Class
+ 1. [Auto Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#1-auto-storage-class)
+ 2. [Extern Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#2-extern-storage-class)
+ 3. [Static Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#3-static-storage-class)
+ 4. [Register Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#4-register-storage-class)
+ 5. [Mutable Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#5-mutable-storage-class)
+ 6. [thread_local Storage Class](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Basics%20of%20programming/StorageClasses.md#5-thread_local-storage-class)
 
 
 
