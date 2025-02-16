@@ -56,10 +56,10 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 
 
 ## [Difference between Procedural and Object Oriented Programs](#difference-between-procedural-and-object-oriented-programs)
-Here we can see the Procedural and Object Oriented Programs with same problem statement and solving technique for Addition & Substraction.
+Here, We can see the difference of problem solving technique for same problem statement (Addition & Substraction). The difference of **Procedural** and **Object Oriented** Programs.
 
 ### [Procedural Way](#Procedural-Way)
-```
+```cpp
 #include<studio.h>
 
 int Add(int No1, int No2)
@@ -91,13 +91,15 @@ int main()
 	return 0;
 }
 ```
+
 #### Note:
 As it is Procedural approach, it should be invoked in sequence. If you want to perform same task again and again, We have to follow same procedure again & again.
+<br>
 
 
 
 ### [Object-Oriented Approach](#Object-Oriented-Approach)
-```
+```cpp
 #include<iostream>
 using namespace std;
 class Math
@@ -146,6 +148,7 @@ int main()
 
 #### Note:
 In this approach we are using Math class objects & calling method for that specific characteristics. So Ans is stored for that object.
+<br>
 
 
 ### [Explaination](#Explaination)
@@ -156,5 +159,6 @@ As below Image shows memory layout for the Object Oriented Approach,
  - When we declared a class, memory is allocated for its behaviour(mothods) inside text section.
  - When we create object/instance of class then seperate memory for characteristics allocated `N times`. But memory for behaviour allocated `only once` in text section.
   - If you want to call any member function then object of that class required to call that function.
+
 
 ---
