@@ -58,7 +58,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 ## [Difference between Procedural and Object Oriented Programs](#difference-between-procedural-and-object-oriented-programs)
 Here, We can see the difference of problem solving technique for same problem statement (Addition & Substraction). The difference of **Procedural** and **Object Oriented** Programs.
 
-### [Procedural Way](#Procedural-Way)
+### [Procedural Approach](#procedural-approach)
 ```cpp
 #include<studio.h>
 
