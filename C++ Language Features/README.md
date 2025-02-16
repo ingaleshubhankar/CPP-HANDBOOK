@@ -26,8 +26,7 @@ For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/b
 
 
 ## 4. Abstract or Void Data Type
-- `void`
-<br>
+- `void` <br>
 
 For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/DataTypes.md#4-abstract-or-void-data-type).
 <br>
@@ -35,21 +34,27 @@ For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/b
 
 
 ## 6.2 Input and Output Operator
-- `cin` and `cout` are used for input and output operations in C++. For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/InputOutputOpr.md#input--output-in-c).
-<br>
+- `cin` and `cout` are used for input and output operations in C++. 
+ - For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/InputOutputOpr.md#input--output-in-c).
 <br>
 
 
 ## 6.3 Reference Variable
-- A reference variable is an alias for an existing variable, allowing indirect access.For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ReferenceVariable.md#reference-variable).
+- A reference variable is an alias for an existing variable, allowing indirect access.
+ - For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ReferenceVariable.md#reference-variable).
+<br>
 
 
 ## 6.4 Scope Resolution Operator
-- `::` is used to define or access members of a namespace, class, or global scope.For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ScopeResolutionOperator.md#scope-resolution-operator).
+- `::` is used to define or access members of a namespace, class, or global scope.
+- For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/ScopeResolutionOperator.md#scope-resolution-operator).
+<br>
 
 
 ## 6.5 Memory Management Operator
-- `new` and `delete` are used for dynamic memory allocation and deallocation.For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/MemoryManagementOperator.md#memory-management-operators).
+ - `new` and `delete` are used for dynamic memory allocation and deallocation.
+ - For more details click [here](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/C%2B%2B%20Language%20Features/MemoryManagementOperator.md#memory-management-operators).
+<br>
 
 
 ## 6.6 Type Casting Operator
