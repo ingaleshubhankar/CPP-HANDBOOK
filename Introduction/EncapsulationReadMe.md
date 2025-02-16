@@ -52,7 +52,7 @@ int main() {
 ```
 
 ### Key Points:
- - Encapsulation is used here to protect the balance from direct access.  - It can only be modified or read via the public methods deposit(), withdraw(), and getBalance().
+ - Encapsulation is used here to protect the balance from direct access. It can only be modified or read via the public methods deposit(), withdraw(), and getBalance().
 <br>
 
 ---
