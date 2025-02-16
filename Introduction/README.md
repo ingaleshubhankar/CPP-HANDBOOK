@@ -95,6 +95,8 @@ int main()
 #### Note:
 As it is Procedural approach, it should be invoked in sequence. If you want to perform same task again and again, We have to follow same procedure again & again.
 <br>
+<br>
+
 
 
 
@@ -149,6 +151,8 @@ int main()
 #### Note:
 In this approach we are using Math class objects & calling method for that specific characteristics. So Ans is stored for that object.
 <br>
+<br>
+
 
 
 ### [Explaination](#Explaination)
