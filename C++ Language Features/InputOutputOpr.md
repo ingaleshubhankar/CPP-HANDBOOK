@@ -1,4 +1,4 @@
-# Input & Output in C++
+# [Input & Output in C++](#input--output-in-c)
 C++ does not have built-in statements for input and output (I/O). Instead, it provides an extensive **Standard Library** that includes functionalities for I/O operations. The **iostream** library is used to handle input and output in C++.
 
 ---
