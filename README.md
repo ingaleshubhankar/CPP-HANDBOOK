@@ -2,6 +2,7 @@
 "Welcome! I believe in the importance of passing on knowledge and helping others learn. By sharing this CPP-HANDBOOK, I aim to provide a solid foundation for anyone looking to learn C++.
 <br>
 
+![My Image](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/Code_nd_Data_Section.png)
 ---
 
 # Table of Contect
