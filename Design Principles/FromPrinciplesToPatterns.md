@@ -27,7 +27,7 @@ This class has two reasons to change:
  - Storage mechanism changes
 <br>
 
-And <i>SRP violation</i>
+And <i>SRP violation</i><br>
 **"A Class should have one one Reason to change"**
 <br>
 
