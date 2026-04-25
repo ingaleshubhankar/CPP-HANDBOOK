@@ -25,3 +25,16 @@ Think of [SOLID](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Desi
 <i>But it’s not the whole story.<i>
 
 
+## [General Design Principles](#general-design-principles)
+
+SOLID forms the foundation, but there are other principles that guide design decisions at a broader level.
+<br>
+
+**These principles focus on:**
+ - Simplicity
+ - Maintainability
+ - Code quality across the system
+<br>
+
+They apply beyond just class design.
+<br>
