@@ -95,9 +95,6 @@
  - 7.3 [Templates](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Advanced%20Concepts/Template.md#template)
 
 
-
-https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Design%20Principles
-
 ## 8.[Design Principles](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Design%20Principles#design-principle)
  - 8.1 [Creational Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md#creational-patterns)
  - 8.2 [Structural Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md#structural-design-patterns-in-c)
