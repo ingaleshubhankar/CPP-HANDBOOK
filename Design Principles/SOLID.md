@@ -30,7 +30,7 @@ Each class should focus on a single responsibility. When a class handles multipl
  - Easier to maintain
  - Better readability
  - Reduced side effects
-<br>
+
 
 **Example:**<br>
 Instead of one class handling both business logic + logging, separate them.
