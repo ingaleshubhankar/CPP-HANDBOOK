@@ -8,7 +8,7 @@ Let’s start with a simple example.
 
 A simple design
 
-```
+```cpp
 class Card {
     long cardNo;
     char type;
@@ -36,7 +36,7 @@ If the saving logic changes, the Card class should NOT be affected. If a single 
 We solved it as follows,<br>
 
 **Fix (SRP applied)**
-```
+```cpp
 class Card {
     long cardNo;
     char type;
@@ -60,7 +60,7 @@ Now:
 New requirement:
 
 Support File, DB, API storage
-```
+```cpp
 void save(const Card& c, string type) {
     if(type == "file") { }
     else if(type == "db") { }
@@ -73,19 +73,18 @@ Every new storage → modify code
 Violates OCP
 Change pressure increases
 
-
 OCP forces abstraction
 
 To avoid modifying code:
 
-```
+```cpp
 class CardStorage {
 public:
     virtual void save(const Card& c) = 0;
 };
 ```
 
-```
+```cpp
 class FileStorage : public CardStorage { ... };
 class DBStorage   : public CardStorage { ... };
 ```
@@ -106,7 +105,7 @@ Who creates the correct storage?
 
 This is where pattern emerges
 
-```
+```cpp
 class StorageFactory {
 public:
     static CardStorage* create(string type) {
@@ -121,7 +120,7 @@ public:
 **Factory appears*
 
 
-```
+```cpp
 
 class CardSaver {
     CardStorage* storage;
