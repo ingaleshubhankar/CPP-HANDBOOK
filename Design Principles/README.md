@@ -38,3 +38,9 @@ SOLID forms the foundation, but there are [other principles](https://github.com/
 
 They apply beyond just class design.
 <br>
+
+## [Principle To Pattern](#principle-to-pattern)
+
+Let’s explore how applying design principles naturally leads to the formation of design patterns, using an example.
+
+
