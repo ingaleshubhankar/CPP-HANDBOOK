@@ -22,7 +22,7 @@ public:
 Looks fine. We have a Card, and it knows how to save itself.
 <br>
 
-This class has two reasons to change:
+This class has two reasons to change:<br>
  - Card structure changes
  - Storage mechanism changes
 
