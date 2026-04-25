@@ -27,7 +27,7 @@ Think of [SOLID](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Desi
 
 ## [General Design Principles](#general-design-principles)
 
-SOLID forms the foundation, but there are other principles that guide design decisions at a broader level.
+SOLID forms the foundation, but there are [other principles](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Principles/GeneralDesignPrinciples.md#general-design-principles) that guide design decisions at a broader level.
 <br>
 
 **These principles focus on:**
