@@ -41,6 +41,6 @@ They apply beyond just class design.
 
 ## [Principle To Pattern](#principle-to-pattern)
 
-Let’s explore how applying design principles naturally leads to the formation of design patterns, using an example.
+Let’s explore how applying design principles naturally leads to the formation of design patterns, [using an example](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Principles/FromPrinciplesToPatterns.md#principle-to-pattern-with-example).
 
 
