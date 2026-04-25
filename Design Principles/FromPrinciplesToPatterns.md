@@ -19,9 +19,10 @@ public:
     }
 };
 ```
-In the first glance it looks fine.<br>
-Basically We have a Card & it knows how to save itself.
+In the first glance it looks fine. Basically We have a Card & it knows how to save itself.
 <br>
+<br>
+
 This class has two reasons to change:
  - Card structure changes
  - Storage mechanism changes
@@ -30,6 +31,10 @@ This class has two reasons to change:
 And <i>SRP violation</i><br>
 **"A Class should have one one Reason to change"**
 <br>
+
+If Saving logic changes, Card should NOT change. If you have 2 reasons to change for same class then we have to split the functionality into two classes. because in future if we have to make changes in one area that might affect other area. So prevent that we should follow the SRP.<br>
+
+We solved it as follows,<br>
 
 **Fix (SRP applied)**
 ```
@@ -43,13 +48,14 @@ public:
     void save(const Card& c);
 };
 ```
-
 Now:
  - Card → data responsibility
  - CardSaver → storage responsibility
 <br>
 ✔ Clean separation
 ❗ No pattern yet
+
+
 
 
 
