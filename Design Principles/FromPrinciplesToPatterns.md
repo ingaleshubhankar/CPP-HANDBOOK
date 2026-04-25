@@ -50,21 +50,97 @@ public:
 Now:
  - Card → data responsibility
  - CardSaver → storage responsibility
-<br>
+
+
 ✔ Clean separation<br>
 ❗ No pattern yet
 
 ### Change pressure increases
 
+New requirement:
+
+Support File, DB, API storage
+```
+void save(const Card& c, string type) {
+    if(type == "file") { }
+    else if(type == "db") { }
+    else if(type == "api") { }
+}
+```
+
+What’s happening here?
+Every new storage → modify code
+Violates OCP
+Change pressure increases
 
 
+OCP forces abstraction
+
+To avoid modifying code:
+
+```
+class CardStorage {
+public:
+    virtual void save(const Card& c) = 0;
+};
+```
+
+```
+class FileStorage : public CardStorage { ... };
+class DBStorage   : public CardStorage { ... };
+```
+Now:
+
+Add new type → extend class
+No modification required
+
+✔ OCP satisfied
 
 
+Creation problem appears
+
+Now question becomes:
+
+Who creates the correct storage?
 
 
+This is where pattern emerges
+
+```
+class StorageFactory {
+public:
+    static CardStorage* create(string type) {
+        if(type == "file") return new FileStorage();
+        if(type == "db")   return new DBStorage();
+        return nullptr;
+    }
+};
+
+```
+
+**Factory appears*
 
 
+```
+
+class CardSaver {
+    CardStorage* storage;
+
+public:
+    CardSaver(CardStorage* s) : storage(s) {}
+
+    void save(const Card& c) {
+        storage->save(c);
+    }
+};
+
+```
 
 Design principles like **SRP** and **OCP** don’t give solutions.<br>
 They create **constraints.**, And constraints create **pressure**.
 <br>
+
+Patterns are not the starting point.
+They are what we recognize after solving the problem well.
+
+---
