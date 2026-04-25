@@ -13,3 +13,9 @@ SOLID refered as 5 Principles of the Object Oriented Design. SOLID focus on clas
 🔹**D** — Dependency Inversion Principle (DIP) — <i> Depend on abstractions, not concrete implementations.</i>
 <br>
 
+---
+<br>
+
+## [SOLID In Detail](#solid-in-detail)
+
+
