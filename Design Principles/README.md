@@ -19,6 +19,7 @@ It helps in:
  - Managing responsibilities
  - Designing flexible and maintainable systems
 <br>
+
 Think of [SOLID](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Principles/SOLID.md#solid) as the inner circle of object-oriented design.<br><br>
 
 <i>But it’s not the whole story.<i>
