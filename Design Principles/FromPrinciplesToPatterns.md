@@ -19,20 +19,15 @@ public:
     }
 };
 ```
-
-Looks fine.<br>
-We have a Card, and it knows how to save itself.
-<br>
-
-Design principles like **SRP** and **OCP** don’t give solutions.<br>
-They create **constraints.**, And constraints create **pressure**.
+Looks fine. We have a Card, and it knows how to save itself.
 <br>
 
 This class has two reasons to change:
  - Card structure changes
  - Storage mechanism changes
 
-And <i>SRP violation</i>
+And <i>SRP violation</i><br>
+**"A Class should have one one Reason to change"**
 <br>
 
 **Fix (SRP applied)**
@@ -57,3 +52,6 @@ Now:
 
 
 
+Design principles like **SRP** and **OCP** don’t give solutions.<br>
+They create **constraints.**, And constraints create **pressure**.
+<br>
