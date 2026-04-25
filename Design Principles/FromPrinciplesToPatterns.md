@@ -3,10 +3,10 @@
 
 ## [Where Patterns Come From](#where-patterns-come-from)
 
-Let’s not start with patterns.
+Let’s not start with patterns.<br>
 Let’s start with a simple example.
-<br>
 
+<br>
 A simple design
 
 ```
