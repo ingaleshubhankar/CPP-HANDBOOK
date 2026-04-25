@@ -6,7 +6,7 @@
 Let’s not start with patterns.<br>
 Let’s start with a simple example.
 
-<br>
+
 A simple design
 
 ```
