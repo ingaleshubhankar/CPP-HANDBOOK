@@ -2,8 +2,7 @@
 
 SOLID refered as 5 Principles of the Object Oriented Design. SOLID focus on class level object oriented design.
 
-🔹S — Single Responsibility Principle (SRP) <br>
-    A class should have one reason to change.
+🔹S — Single Responsibility Principle (SRP) <t> A class should have one reason to change.
 <br>
 🔹 O — Open/Closed Principle (OCP)<br>
 Software should be open for extension but closed for modification.
