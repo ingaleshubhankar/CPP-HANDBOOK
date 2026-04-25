@@ -30,7 +30,7 @@ And <i>SRP violation</i><br>
 **"A Class should have one one Reason to change"**
 <br>
 
-If the saving logic changes, the Card class should NOT be affected. If a single class has two reasons to change, **its responsibilities should be split into separate classes**. Otherwise, a change in one area may unintentionally impact another. To prevent this, we follow the **Single Responsibility Principle (SRP)**.<br>
+If the saving logic changes, the <i>Card</i> class should NOT be affected. If a single class has two reasons to change, **its responsibilities should be split into separate classes**. Otherwise, a change in one area may unintentionally impact another. To prevent this, we follow the **Single Responsibility Principle (SRP)**.<br>
 
 We solved it as follows,<br>
 
