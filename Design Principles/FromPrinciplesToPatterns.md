@@ -21,7 +21,6 @@ public:
 ```
 In the first glance it looks fine. Basically We have a Card & it knows how to save itself.
 <br>
-<br>
 
 This class has two reasons to change:
  - Card structure changes
