@@ -50,15 +50,13 @@ Now:
  - Card → data responsibility
  - CardSaver → storage responsibility
 
-
 ✔ Clean separation<br>
 ❗ No pattern yet
 
-### Change pressure increases
 
-New requirement:
+### ❗Change pressure increases 
 
-Support File, DB, API storage
+New requirement is we need to support File, DB, API storage. So basic implementation will look like this,
 ```cpp
 void save(const Card& c, string type) {
     if(type == "file") { }
@@ -66,16 +64,15 @@ void save(const Card& c, string type) {
     else if(type == "api") { }
 }
 ```
+Which is **NOT enough**.Because every new storage the code gets modifed. And it **Violates Open Close Principle (OCP)**<br>
 
-What’s happening here?
-Every new storage → modify code
-Violates OCP
-Change pressure increases
+The Open/Closed Principle (OCP) promotes the use of abstraction. It states that a class should be open for extension but closed for modification.<br>
 
-OCP forces abstraction
+This means that new functionality should be added with **minimal or no changes** to the **existing code**. Instead of modifying already tested and stable code, we extend the system by introducing new implementations.<br>
 
-To avoid modifying code:
+This is typically achieved through abstraction, where behavior is defined using interfaces or base classes, allowing new features to be added without altering existing logic. <br>
 
+**The OCP applied as follows,**
 ```cpp
 class CardStorage {
 public:
@@ -87,22 +84,15 @@ public:
 class FileStorage : public CardStorage { ... };
 class DBStorage   : public CardStorage { ... };
 ```
-Now:
 
-Add new type → extend class
-No modification required
+Now:
+ - Add new type → extend class
+ - No modification required
 
 ✔ OCP satisfied
 
 
-Creation problem appears
-
-Now question becomes:
-
-Who creates the correct storage?
-
-
-This is where pattern emerges
+NOW, Who creates the correct storage?
 
 ```cpp
 class StorageFactory {
@@ -113,12 +103,12 @@ public:
         return nullptr;
     }
 };
-
 ```
 
 **Factory appears*
+<br>
 
-
+And it applied as follows,
 ```cpp
 
 class CardSaver {
@@ -133,6 +123,9 @@ public:
 };
 
 ```
+
+OCP is NOT about Inheritance.<br>
+OCP is about Polymorphism over conditionals.
 
 Design principles like **SRP** and **OCP** don’t give solutions.<br>
 They create **constraints.**, And constraints create **pressure**.
