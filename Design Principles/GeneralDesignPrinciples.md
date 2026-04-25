@@ -32,3 +32,5 @@ Avoid unnecessary complexity. Simpler code is easier to read, debug, and maintai
 **Example:**
 Avoid over-engineering for simple problems.
 
+
+
