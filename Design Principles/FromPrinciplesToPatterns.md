@@ -19,9 +19,9 @@ public:
     }
 };
 ```
-Looks fine. We have a Card, and it knows how to save itself.
+In the first glance it looks fine.<br>
+Basically We have a Card & it knows how to save itself.
 <br>
-
 This class has two reasons to change:
  - Card structure changes
  - Storage mechanism changes
