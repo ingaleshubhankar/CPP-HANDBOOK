@@ -19,7 +19,7 @@ It helps in:
  - Managing responsibilities
  - Designing flexible and maintainable systems
 <br>
-Think of SOLID as the inner circle of object-oriented design.<br><br>
+Think of [SOLID]() as the inner circle of object-oriented design.<br><br>
 
 <i>But it’s not the whole story.<i>
 
