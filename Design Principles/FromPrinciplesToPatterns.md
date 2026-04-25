@@ -64,7 +64,7 @@ void save(const Card& c, string type) {
     else if(type == "api") { }
 }
 ```
-Which is **NOT enough**.Because every new storage the code gets modifed. And it **Violates Open Close Principle (OCP)**<br>
+Which is **NOT enough**. Because every new storage the code gets modifed. And it **Violates Open Close Principle (OCP)**<br>
 
 The Open/Closed Principle (OCP) promotes the use of abstraction. It states that a class should be open for extension but closed for modification.<br>
 
@@ -89,11 +89,9 @@ Now:
  - Add new type → extend class
  - No modification required
 
-✔ OCP satisfied
-
+✔ OCP satisfied <br>
 
 NOW, Who creates the correct storage?
-
 ```cpp
 class StorageFactory {
 public:
