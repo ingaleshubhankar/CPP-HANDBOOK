@@ -31,7 +31,7 @@ And <i>SRP violation</i><br>
 **"A Class should have one one Reason to change"**
 <br>
 
-If Saving logic changes, Card should NOT change. If you have 2 reasons to change for same class then we have to split the functionality into two classes. because in future if we have to make changes in one area that might affect other area. So prevent that we should follow the SRP.<br>
+If the saving logic changes, the Card class should NOT be affected. If a single class has two reasons to change, its responsibilities should be split into separate classes. Otherwise, a change in one area may unintentionally impact another. To prevent this, we follow the Single Responsibility Principle (SRP).<br>
 
 We solved it as follows,<br>
 
@@ -53,6 +53,12 @@ Now:
 <br>
 ✔ Clean separation
 ❗ No pattern yet
+
+### [Change pressure increases](#change-pressure-increases)
+
+
+
+
 
 
 
