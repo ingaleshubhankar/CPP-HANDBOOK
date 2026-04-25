@@ -22,11 +22,12 @@ public:
 Looks fine. We have a Card, and it knows how to save itself.
 <br>
 
-This class has two reasons to change:<br>
+This class has two reasons to change:
  - Card structure changes
  - Storage mechanism changes
+<br>
 
-And <i>SRP violation</i><br>
+And <i>SRP violation</i>
 **"A Class should have one one Reason to change"**
 <br>
 
