@@ -18,4 +18,25 @@ SOLID refered as 5 Principles of the Object Oriented Design. SOLID focus on clas
 
 ## [SOLID In Detail](#solid-in-detail)
 
+### [1. Single Responsibility Principle (SRP)](#1-single-responsibility-principle-srp)
+
+**Definition:** 
+A class should have only one reason to change.
+
+**Explanation:**
+Each class should focus on a single responsibility. When a class handles multiple concerns, changes in one area can break another.
+
+**Why it matters:**
+ - Easier to maintain
+ - Better readability
+ - Reduced side effects
+<br>
+
+**Example:**<br>
+Instead of one class handling both business logic + logging, separate them.
+<br>
+<br>
+
+
+
 
