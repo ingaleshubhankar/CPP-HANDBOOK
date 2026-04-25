@@ -51,7 +51,7 @@ Now:
  - Card → data responsibility
  - CardSaver → storage responsibility
 <br>
-✔ Clean separation
+✔ Clean separation<br>
 ❗ No pattern yet
 
 ### [Change pressure increases](#change-pressure-increases)
