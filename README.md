@@ -10,7 +10,7 @@
 ## 1.[Introduction](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#Introduction)
 - 1.1 [Introduction to C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#introduction-to-c)
 - 1.2 [Evolution of the C++ Standard](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#evolution-of-the-c-standard)
-- 1.3 [Four Pillars of Object-Oriented Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#the-four-pillars-of-object-oriented-programming)
+- 1.3 [Four Pillars of Object-Oriented Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#four-pillars-of-object-oriented-programming)
 - 1.4 [Example Between Procedural and Object Oriented](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#difference-between-procedural-and-object-oriented-programs)
 
 
