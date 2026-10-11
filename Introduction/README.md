@@ -5,7 +5,7 @@ I’m excited about this journey, and I’m sure you will be too once you explor
 <br>
 <br>
 
-## [CPP Introduction](#CPP-Introduction)
+## [Introduction to c++](#introduction-to-c++)
  - C++ is an **Object-Oriented Programming** Language.<br>
  - Object-Priented Programming is **NOT** just a concept; it’s a **way of thinking.**<br>
  - We use object-oriented concepts to solve real-life problems by modeling them as objects.<br>
