@@ -46,7 +46,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
  It focusing on library fixes and optimizations.
 <br>
 
- ## [The Four Pillars of Object Oriented Programming](#the-four-pillars-of-object-oriented-programming)
+ ## [Four Pillars of Object-Oriented Programming](#four-pillars-of-object-oriented-programming)
  1. [Abstraction](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/AbstractionReadMe.md)
  2. [Encapsulation](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/EncapsulationReadMe.md)
  3. [Inheritance](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Introduction/InheritanceReadMe.md)
