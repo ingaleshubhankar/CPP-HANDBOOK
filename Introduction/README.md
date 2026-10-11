@@ -55,7 +55,7 @@ Below are 3 points that need to be taken into consideration whenever you are ask
 <br>
 
 
-## [Difference between Procedural and Object Oriented Programs](#difference-between-procedural-and-object-oriented-programs)
+## [Procedural vs. Object-Oriented Programming](#procedural-vs-object-oriented-programming)
 Here, We can see the difference of problem solving technique for same problem statement (Addition & Substraction). The difference of **Procedural** and **Object Oriented** Programs.
 
 ### [Procedural Approach](#procedural-approach)
