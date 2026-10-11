@@ -11,7 +11,7 @@
 - 1.1 [Introduction to C++](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#introduction-to-c)
 - 1.2 [Evolution of the C++ Standard](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#evolution-of-the-c-standard)
 - 1.3 [Four Pillars of Object-Oriented Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#four-pillars-of-object-oriented-programming)
-- 1.4 [Procedural vs. Object-Oriented Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#difference-between-procedural-and-object-oriented-programs)
+- 1.4 [Procedural vs. Object-Oriented Programming](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Introduction#procedural-vs-object-oriented-programming)
 
 
 ## 2.[Behind The Curtain of Execution](https://github.com/ingaleshubhankar/CPP-HANDBOOK/tree/main/Behind%20the%20Curtain%20of%20Execution#Behind-the-curtain-of-execution)
