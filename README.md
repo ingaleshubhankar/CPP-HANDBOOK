@@ -101,9 +101,9 @@
 
 
 ## 9.[Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/README.md)
- - 9.1 [Creational Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md)
- - 9.2 [Structural Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md)
- - 9.3 [Behavioral Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md)
+ - 9.1 [Creational Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Creational_Patterns.md)
+ - 9.2 [Structural Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Structural_Patterns.md)
+ - 9.3 [Behavioral Design Patterns](https://github.com/ingaleshubhankar/CPP-HANDBOOK/blob/main/Design%20Patterns/Behavioural_Patterns.md)
 
 ---
 
